@@ -1,13 +1,13 @@
-**1. Context of the Bounty: **
+**1. Context of the Bounty:**
 The Polkadot Pioneers Prize will work to help propel technical innovation on the Polkadot network, as well as to model ways in which the community can achieve more agency and support in directing how on-chain treasury funds are spent. By offering an incentive prize program that funds research in targeted areas, we hope to advance the state of not just the Polkadot network, but of blockchain as an alternative infrastructure to Web 2.0—ushering in Web 3.0.
 
-**2.Categories: **
+**2. Categories:**
 As Polkadot matures as an Ecosystem, requirements for ongoing infrastructure development presents a technical argument for a prize program, particularly in areas in which bold innovation is possible. 
 We see two different research and development categories.
 The first category in which we observe a need for creative and directed action is in the utilization of zero-knowledge (“ZK”) proofs, also known as ZK protocols. ZK cryptography ushers in a new way to protect users by bringing privacy to on-chain data, and so has a far reaching impact, not just for Polkadot, but for blockchain and Web 3.0 more broadly. The Web3 Foundation’s research team has begun looking into potential areas in which ZK technology shows the most potential to be applied on Polkadot, and this research will inform how the Pioneers Prize can support innovation in secure and private transactions on the Polkadot network.
 The second category we deem impactful would be further development of Polkadot infrastructure. Specifically, we would like to offer attractive bounties to incentivise in the first instance the implementation and delivery of alternative implementations of Polkadot nodes: full nodes, authoring nodes, and/or collator nodes. With this, we hope to create a more resilient network, and to provide builders with more options to build and integrate with Polkadot in the languages they love. This challenge type serves to bolster the infrastructure that powers Polkadot directly.
 
-**3. Outline of acceptable applications for each track: **
+**3. Outline of acceptable applications for each track:**
 We propose a prize program targeted around the problem areas identified above. 
 Zero-Knowledge: The first ambitious technical initiatives we are looking to fund are in the area of ZK innovation. ZK (Zero-Knowledge) Primitives in Substrate is a set of modules that provides the necessary tools for integrating privacy-preserving computations into the Substrate blockchain framework.
 These primitives are essentially the building blocks used to create applications that require the use of zero-knowledge proofs, such as zk-SNARKs or zk-STARKs. They allow nodes to verify transactions without revealing any specific information about the transaction itself, which is key for privacy-centric applications.

@@ -1,5 +1,9 @@
 # Polkadot Pioneers Prize
 
+<p align="center">
+  <img src="static/img/pioneersprize.png" style="width:1300px" />
+</p>
+
 ## 1. Context of the Bounty
 The Polkadot Pioneers Prize will work to help propel technical innovation on the Polkadot network, as well as to model ways in which the community can achieve more agency and support in directing how on-chain treasury funds are spent. By offering an incentive prize program that funds research in targeted areas, we hope to advance the state of not just the Polkadot network but of blockchain as an alternative infrastructure to Web 2.0—ushering in Web 3.0.
 

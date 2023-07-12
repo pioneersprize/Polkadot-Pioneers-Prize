@@ -1,7 +1,7 @@
 # Polkadot Pioneers Prize
 
 <p align="center">
-  <img src="static/img/pioneersprize.png" style="width:1300px" />
+  <img src="static/pioneersprize.png" style="width:1300px" />
 </p>
 
 ## 1. Context of the Bounty

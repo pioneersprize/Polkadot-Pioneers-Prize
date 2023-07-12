@@ -40,7 +40,7 @@ As a general rule, teams are asked to finish a grant before applying for another
 
 ### Categories
 
-- **Zero-Knowledge**: The first ambitious technical initiatives we are looking to fund are in the area of ZK innovation. ZK (Zero-Knowledge) Primitives in Substrate is a set of modules that provides the necessary tools for integrating privacy-preserving computations into the Substrate blockchain framework.These primitives are essentially the building blocks used to create applications that require the use of zero-knowledge proofs, such as zk-SNARKs or zk-STARKs. They allow nodes to verify transactions without revealing any specific information about the transaction itself, which is key for privacy-centric applications. Substrate, developed by Parity Technologies, is a modular framework that allows developers to build custom blockchains for their decentralized applications. By integrating ZK Primitives into this framework, developers can seamlessly incorporate high level privacy functionalities into their blockchain solutions, offering users more secure and private transactions while maintaining the open and decentralized nature of blockchain systems.
+- **Zero-Knowledge**: The first ambitious technical initiatives we are looking to fund are in the area of ZK innovation. ZK (Zero-Knowledge) Primitives in Substrate is a set of modules that provides the necessary tools for integrating privacy-preserving computations into the Substrate blockchain framework. These primitives are essentially the building blocks used to create applications that require the use of zero-knowledge proofs, such as zk-SNARKs or zk-STARKs. They allow nodes to verify transactions without revealing any specific information about the transaction itself, which is key for privacy-centric applications. Substrate, developed by Parity Technologies, is a modular framework that allows developers to build custom blockchains for their decentralized applications. By integrating ZK Primitives into this framework, developers can seamlessly incorporate high-level privacy functionalities into their blockchain solutions, offering users more secure and private transactions while maintaining the open and decentralized nature of blockchain systems.
 These ZK Primitives include cryptographic functions, proof generation and verification algorithms, and various components related to the creation and validation of zero-knowledge proofs. Their implementation in Substrate takes advantage of Rust's safety and performance features, making the development of privacy-centric blockchains more efficient and reliable.
 Examples of areas of interest in the ZK space can be found at https://hackmd.io/@rgbPIkIdTwSICPuAq67Jbw/S1rQ3-Iy2, in an article posted by Jeff Burdges (W3F Research Team) for the recent Berkeley Hackathon.
 
@@ -63,18 +63,20 @@ No installments will be due until the completion of milestones, which will be de
 To help manage payouts and to assist in the challenge, prize, and winner selection process, we propose the council elected an Administrative Curator group. The Administrative Curator group will be the primary bounty holder, will be responsible for coordination with the treasury council, and will retain the primary wallet address. The Administrative Curator group can then later decide to delegate child bounties to sub-group(s) that are more specific. 
 
 ## Curator Team 
-The following group of individuals are acting as the Administrative Curator group, who would the funds via a multisig account:
+The following group of individuals are acting as the Administrative Curator group, who control the funds via a [proxy account](https://polkadot.subscan.io/account/15AysydMuDH9XnzZsNTBezB5uLPjAGFBYtVVEu3p3MZqcSzC):
 - Alistair Stewart, Head of Research, Web3 Foundation 
 - David Hawig, Technical Grants Evaluator, Web3 Foundation 
 - Raul Romanutti, Polkadot On-Chain Council Member
 - Bryan Chen, Co-Founder of Acala
 - Ricardo Rius, Polkadot Ecosystem Tech Lead, Parity Technologies
 
-In addition to the Administrative Curator group, an advisory team of technical specialists will be created (via off-chain coordination) to advise the group on things like the assessment of deliverable submissions, challenge guidelines, and future challenge creation. The composition of this team will be up to the curator group but should likely include members of the Web3 Foundation’s research team, Parity engineers with experience building Substrate, and community members that have a proven track record of delivering impactful/valuable changes to core infrastructure.
+In addition to the Administrative Curator group, an advisory team of technical specialists was created (via off-chain coordination) to advise the group on things like the assessment of deliverable submissions, challenge guidelines, and future challenge creation. 
 
 ## Process 
-1. Submit Application by creating a pull request in this repository.
+1. [Fork](pioneersprize/Polkadot-Pioneers-Prize/fork) this repository.
+2. In the newly created fork, create a copy of the application template ([`applications/application-template.md`](applications/application-template.md)). Make sure you **do not modify the template file directly**. Name the new file after your project: `project_name.md` and fill out the template.
+3. Once you're done, create a pull request in the original [Polkadot-Pioneers-Prize repository](https://github.com/pioneersprize/Polkadot-Pioneers-Prize). The pull request should only contain _one new file_—the Markdown file you created from the template.
 2. Curators issue comments and request changes on the pull request
-3. Clarifications and amendments made in the comments need to be included in the application. You may address feedback by directly modifying your application and leaving a comment once you're done. Generally, if you don't reply within 2 weeks, the application will be closed due to inactivity, but you're always free to reopen it as long as it hasn't been rejected.
-4. The application will be accepted and merged as soon as it receives 3 approvals, or closed after two weeks of inactivity. Unless specified otherwise, the day on which it is accepted will be considered the starting date of the project, and will be used to estimate delivery dates.
+3. Clarifications and amendments made in the comments need to be included in the application. You may address feedback by directly modifying your application and leaving a comment once you're done. Generally, if you don't reply within two weeks, the application will be closed due to inactivity, but you're always free to reopen it as long as it hasn't been rejected.
+4. The application will be accepted and merged as soon as it receives three approvals or closed after two weeks of inactivity. 
 5. The successful applicant will be required to provide regular updates on progress and to directly inform the Curator when a milestone has been completed.

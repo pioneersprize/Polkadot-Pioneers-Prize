@@ -72,7 +72,7 @@ The following group of individuals are acting as the Administrative Curator grou
 In addition to the Administrative Curator group, an advisory team of technical specialists was created (via off-chain coordination) to advise the group on things like the assessment of deliverable submissions, challenge guidelines, and future challenge creation. 
 
 ## Process 
-1. [Fork](pioneersprize/Polkadot-Pioneers-Prize/fork) this repository.
+1. Fork this repository.
 2. In the newly created fork, create a copy of the application template ([`applications/application-template.md`](applications/application-template.md)). Make sure you **do not modify the template file directly**. Name the new file after your project: `project_name.md` and fill out the template.
 3. Once you're done, create a pull request in the original [Polkadot-Pioneers-Prize repository](https://github.com/pioneersprize/Polkadot-Pioneers-Prize). The pull request should only contain _one new file_—the Markdown file you created from the template.
 2. Curators issue comments and request changes on the pull request

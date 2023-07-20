@@ -47,8 +47,8 @@ The API used by polkadot will not change, the side effects of breaking changes o
 ### Contact
 
 - **Contact Name:** Bernhard Schuster
-- **Contact Email:** prized@konifay.io
-- **Website:** konifay.io
+- **Contact Email:** w3f-ppp@konifay.io
+- **Website:** https://konifay.io
 
 ### Legal Structure
 

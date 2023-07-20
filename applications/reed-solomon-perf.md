@@ -80,8 +80,6 @@ around it.
 6. determine a threshold, where which one is more performant
 7. implement a dynamic switch over
 
-> :exclamation: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! 
-
 ### Overview
 
 - **Total Estimated Duration:** 3 months
@@ -93,17 +91,14 @@ Note that this is a discounted rate and shall not be assumed for further enquiri
 ### Milestone 1 - Improve current
 
 - **Estimated duration:** 1 month
-- **FTE:**  2
-- **Costs:** 13,200 EUR
-
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
+- **FTE:**  1
+- **Costs:** 10,560 EUR
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | **0a.** | License | Apache 2.0 / MIT |
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and an outline |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. |
-| 0e. | Article | We will publish an **article** that explains the gains and measurements (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
 | 1. | SMID perf | Implement SMID |
 | 2. | Measurement CI | Recover the measurement CI infra |
 
@@ -112,9 +107,7 @@ Note that this is a discounted rate and shall not be assumed for further enquiri
 
 - **Estimated Duration:** 2 month
 - **FTE:**  2
-- **Costs:** 13,200 EUR
-
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
+- **Costs:** 22,120 EUR
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |

@@ -26,7 +26,7 @@ Improve reed solomon erasure coding used in polkadot to reduce the static overhe
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
-* introduce SMID instructions to the current implementation to improve performance for 1000+ validators
+* introduce SIMD instructions to the current implementation to improve performance for 1000+ validators
 * implement a different algorithm that reduces the static table computation overhead for up to 1000 validators
 
 The project is only concerned with the performance aspects of reed solomon erasure coding, nothing more, nothing less.
@@ -74,7 +74,7 @@ around it.
 
 1. do performance measurements baseline
 2. setup decommissioned CI infra again
-3. add SMID to the current implementation
+3. add SIMD to the current implementation
 4. implement a alternate version
 5. measure and tune the alternate
 6. determine a threshold, where which one is more performant
@@ -99,7 +99,7 @@ Note that this is a discounted rate and shall not be assumed for further enquiri
 | **0a.** | License | Apache 2.0 / MIT |
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and an outline |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. |
-| 1. | SMID perf | Implement SMID |
+| 1. | SIMD perf | Implement SIMD |
 | 2. | Measurement CI | Recover the measurement CI infra |
 
 

@@ -1,42 +1,27 @@
 # Performance Improvments for Reed Solomon Erasure Coding
 
-> Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. 
->
-> See the [Process](https://github.com/pioneersprize/Guidelines#7-process) on how to submit a proposal.
 - **Team Name:** konifay
 - **Payment Address:** 1st63Adu7W4cB268CvKHfMwq5rJQkzTitBnWsvGrAx83iiT
 
-> :exclamation: *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 ## Project Overview :page_facing_up:
 
 ### Overview
 
-Please provide the following:
-
-- If the name of your project is not descriptive, a tagline (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into Polkadot.
-- An indication of why your team is interested in creating this project.
-
-Improve reed solomon erasure coding used in polkadot to reduce the static overhead the current implementation.
-
-
+Improve reed solomon erasure coding used in polkadot to reduce the static overhead the current implementation has regardless of the number of shards required.
 
 ### Project Details
-
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
 * introduce SIMD instructions to the current implementation to improve performance for 1000+ validators
 * implement a different algorithm that reduces the static table computation overhead for up to 1000 validators
 
 The project is only concerned with the performance aspects of reed solomon erasure coding, nothing more, nothing less.
 
-The API used by polkadot will not change, the side effects of breaking changes of internal behavior is not part of this.
+The API used by polkadot will not change, the side effects of breaking changes of internal behavior is not part of this work package.
 
 ### Ecosystem Fit
 
-- Where and how does your project fit into the ecosystem? It's already there, let's make it better to scale polkadot
-- What need(s) does your project meet? Polkadot short term scalability, reducing CPU use
+- Reed solomon erasure coding is used in the current polkadot implementation, let's make it better, to scale polkadot further
+- Short term scalability, reducing CPU load and leaving more for network package processing
 
 ## Team :busts_in_silhouette:
 
@@ -80,6 +65,8 @@ around it.
 6. determine a threshold, where which one is more performant
 7. implement a dynamic switch over
 
+All code implemented will be `rust` 🦀
+
 ### Overview
 
 - **Total Estimated Duration:** 3 months
@@ -119,10 +106,9 @@ Note that this is a discounted rate and shall not be assumed for further enquiri
 | 2. | Perf | Tune the algorithm for performance |
 | 3. | Compare | Find the threshold where one or the other is better |
 
-
 ## Future Plans
 
-No plans, unless further optimization is required to bridge to a full zk based approach.
+No plans, unless further optimization is required to bridge to a full zk-based approach.
 
 ## Additional Information :heavy_plus_sign:
 

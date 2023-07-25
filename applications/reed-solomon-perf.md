@@ -11,8 +11,8 @@ Improve reed solomon erasure coding used in polkadot to reduce the static overhe
 
 ### Project Details
 
-* introduce SIMD instructions to the current implementation to improve performance for 1000+ validators
-* implement a different algorithm that reduces the static table computation overhead for up to 1000 validators
+- introduce SIMD instructions to the current implementation to improve performance for 1000+ validators
+- implement a different algorithm that reduces the static table computation overhead for up to 1000 validators
 
 The project is only concerned with the performance aspects of reed solomon erasure coding, nothing more, nothing less.
 
@@ -48,8 +48,7 @@ around it.
 
 ### Team Code Repos
 
-- https://github.com/drahnr
-
+- <https://github.com/drahnr>
 
 ### Team LinkedIn Profiles (if available)
 
@@ -71,7 +70,7 @@ All code implemented will be `rust` 🦀
 
 - **Total Estimated Duration:** 3 months
 - **Full-Time Equivalent (FTE):** 4 FTE
-- **Total Costs:** 26,400 EUR
+- **Total Costs:** 32,680 EUR
 
 Note that this is a discounted rate and shall not be assumed for further enquiries, since I actually would like to get this done.
 
@@ -89,11 +88,10 @@ Note that this is a discounted rate and shall not be assumed for further enquiri
 | 1. | SIMD perf | Implement SIMD |
 | 2. | Measurement CI | Recover the measurement CI infra |
 
-
 ### Milestone 2 — Implement an alternate algorithm
 
-- **Estimated Duration:** 2 month
-- **FTE:**  2
+- **Estimated Duration:** 2 months
+- **FTE:**  2.66
 - **Costs:** 22,120 EUR
 
 | Number | Deliverable | Specification |

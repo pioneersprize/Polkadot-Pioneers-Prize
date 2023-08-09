@@ -50,21 +50,19 @@ The candidate should also have experience working in decentralized networks and 
 Overall, the ideal candidate for building a light client for Polkadot should possess a combination of technical expertise, blockchain security knowledge, and experience working in decentralized networks. This will enable them to build a light client that is efficient, secure, and compatible with the Polkadot network architecture.
 
 ## Payment conditions
-The total prize pool for this bounty is 993286.08 DOT and is to be split between ZK:Infra roughly in a ratio of 5:1. The incentive prize program will be structured as a set of child bounties, agreed upon by the Administrative Curator group. We also believe that structuring this using a bounty structure allows us to ensure that there are no conflicts of interest.
-If either the Web3 Foundation research team or the community suggests a further prize area which is deemed likely to benefit strongly from an incentive prize, further categories may be added later on, again, in consultation with the community and the Administrative Curator group.
-The Administrative Curator group will take 40 days from the moment the final submission(s) by the implementer(s) is delivered to review and pay out any DOT awards.
+The total prize pool for this bounty is 993286.08 DOT. It is split between ZK:Infra roughly in a ratio of 5:1. The incentive prize program will be structured as a set of child bounties, agreed upon by the Administrative Curator group. 
+If either the Web3 Foundation research team or the community suggests a further prize area that is deemed likely to benefit strongly from an incentive prize, further categories may be added later on, again, in consultation with the community and the Administrative Curator group.
 
-As a note, neither the Web3 Foundation and Parity Technologies GmbH will be the recipient of any amount of funds, as the aim of the program is to support and incentivise the community.
+As a note, neither the Web3 Foundation nor Parity Technologies GmbH will be the recipient of any amount of funds, as the aim of the program is to support and incentivize the community.
 Each milestone will not represent a treasury submission; the total amount requested will cover winner payouts, and milestones are intended as officially reported program updates. 
-The only milestone that triggers a treasury payout is the milestone “Challenge Completion.” However, the embedded challenges will be completed and awarded asynchronously as the nature of each of the challenges will be unique.
-The amount requested from the on-chain treasury in this proposal covers funding to be paid to program winners; all marketing, communications, and operational costs up to and supporting the successful completion of the program will be executed by Parity Technologies as part of an operating SLA with the Web3 Foundation, and the Web3 Foundation itself. 
+
+The amount requested from the on-chain treasury in this proposal covers funding to be paid to program winners; all marketing, communications, and operational costs up to and supporting the successful completion of the program are executed by Parity Technologies as part of an operating SLA with the Web3 Foundation, and the Web3 Foundation itself. 
 No installments will be due until the completion of milestones, which will be determined by the curator/s. While we may not time-bound these challenges or the program itself, in order not to sacrifice innovation impact or quality over speed, we will be doing bi-annual assessments of progress with the teams. 
-To help manage payouts and to assist in the challenge, prize, and winner selection process, we propose the council elected an Administrative Curator group. The Administrative Curator group will be the primary bounty holder, will be responsible for coordination with the treasury council, and will retain the primary wallet address. The Administrative Curator group can then later decide to delegate child bounties to sub-group(s) that are more specific. 
 
 ## Curator Team 
 The following group of individuals are acting as the Administrative Curator group, who control the funds via a [proxy account](https://polkadot.subscan.io/account/15AysydMuDH9XnzZsNTBezB5uLPjAGFBYtVVEu3p3MZqcSzC):
 - Alistair Stewart, Head of Research, Web3 Foundation 
-- David Hawig, Technical Grants Evaluator, Web3 Foundation 
+- David Hawig, Technical Advisor, Web3 Foundation 
 - Raul Romanutti, Polkadot On-Chain Council Member
 - Bryan Chen, Co-Founder of Acala
 - Ricardo Rius, Polkadot Ecosystem Tech Lead, Parity Technologies

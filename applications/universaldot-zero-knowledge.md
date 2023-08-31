@@ -83,7 +83,7 @@ By integrating zero-knowledge proofs into the UniversalDot application, we can e
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. 
+Igor Stojanov is a software architect with 7+ years experience in designing and developing software applications. He has worked at Philips, Signify in the domain of software engineering. Also, has worked for a Dutch blockchain start-up TYMLEZ, which created a proprietary blockchain platform on top of [BigchainDB](https://www.bigchaindb.com/). He is also participant of the first wave of the Polkadot Blockchain Acadamy that took place in Cambridge.
 
 ### Team Code Repos
 

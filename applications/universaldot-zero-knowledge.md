@@ -1,5 +1,4 @@
-# Name of your Project
-
+# ZKP's in decentralised reputation systems 
 
 - **Team Name:** UNIVERSALDOT
 - **Payment Address:** 1ZKQxXJC4731Qq7EHNAddaQRdV37qLYMftbE9PN1T9hu2sU

@@ -64,7 +64,7 @@ All code implemented will be `rust` 🦀
 ### Overview
 
 - **Total Estimated Duration:** 27 months
-- **Full-Time Equivalent (FTE):** 8,5 FTE
+- **Full-Time Equivalent (FTE):** 0.28 FTE
 - **Total Costs:** 108,120
 
 Note that this is a discounted rate and shall not be assumed for further enquiries, since I actually would like to see this crate flourish.
@@ -76,7 +76,7 @@ All calculations include a 20% margin for dot price volatility.
 ### Milestone 1 — Integrate semver-checks release process
 
 - **Estimated Duration:** 3 months
-- **FTE:**  2,5
+- **FTE:**  0.5
 - **Costs:** 31,800 EUR
 
 | Number | Deliverable | Specification |
@@ -91,7 +91,7 @@ All calculations include a 20% margin for dot price volatility.
 ### Milestone 2 - Maintain crate and review PR 2024
 
 - **Total Estimated Duration:** 12 months
-- **Full-Time Equivalent (FTE):** 3 FTE
+- **Full-Time Equivalent (FTE):** 0.25 FTE
 - **Total Costs:** 38,160 EUR
 
 | Number | Deliverable | Specification |
@@ -105,7 +105,7 @@ All calculations include a 20% margin for dot price volatility.
 ### Milestone 3 - Maintain crate and review PR 2025
 
 - **Total Estimated Duration:** 12 months
-- **Full-Time Equivalent (FTE):** 3 FTE
+- **Full-Time Equivalent (FTE):** 0.25 FTE
 - **Total Costs:** 38,160 EUR
 
 | Number | Deliverable | Specification |

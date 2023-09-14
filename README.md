@@ -73,7 +73,7 @@ In addition to the Administrative Curator group, an advisory team of technical s
 1. Fork this repository.
 2. In the newly created fork, create a copy of the application template ([`applications/application-template.md`](applications/application-template.md)). Make sure you **do not modify the template file directly**. Name the new file after your project: `project_name.md` and fill out the template.
 3. Once you're done, create a pull request in the original [Polkadot-Pioneers-Prize repository](https://github.com/pioneersprize/Polkadot-Pioneers-Prize). The pull request should only contain _one new file_—the Markdown file you created from the template.
-2. Curators issue comments and request changes on the pull request
-3. Clarifications and amendments made in the comments need to be included in the application. You may address feedback by directly modifying your application and leaving a comment once you're done. Generally, if you don't reply within two weeks, the application will be closed due to inactivity, but you're always free to reopen it as long as it hasn't been rejected.
-4. The application will be accepted and merged as soon as it receives three approvals or closed after two weeks of inactivity. 
-5. The successful applicant will be required to provide regular updates on progress and to directly inform the Curator when a milestone has been completed.
+4. Curators issue comments and request changes on the pull request
+5. Clarifications and amendments made in the comments need to be included in the application. You may address feedback by directly modifying your application and leaving a comment once you're done. Generally, if you don't reply within two weeks, the application will be closed due to inactivity, but you're always free to reopen it as long as it hasn't been rejected.
+6. The application will be accepted and merged as soon as it receives three approvals or closed after two weeks of inactivity. 
+8. Milestones are to be delivered on the [Milestone Delivery repository](https://github.com/pioneersprize/Milestone-Delivery) following the [process](https://github.com/pioneersprize/Milestone-Delivery#mailbox-milestone-delivery-process) described there.

@@ -25,6 +25,19 @@ The way that zkGit technology will be utilized in the reputation system is as fo
 
 For the reputation system that we envision, each user account will hold a data structure that maps the repository they contributed to, to a reputation score for that repository. This will form part of the shared reputation chain (a common goods parachain), and users of such data, which typically will be parachains, will configure which repositories are of importance to them, and what weight to assign to each repository. Then, upon querying the users’ reputation, each parachain can aggregate the reputation score differently. For example, the Acala parachain might assign a weight of two to any repository in the Acala organization, and a weight of one to repositories in the `paritytech` organization. On the other hand, Moonbeam might assign a weight of three to `polkadot-sdk`, half to Acala organization, and two to Ethereum org repositories. This way, even with one single database holding the user's contributions, each chain can adapt it to its needs.
 
+### zkGit Features
+
+To gain wide adoption, the app needs to be configurable enough to cover the majority of the use cases, and intuitive enough to lower the bar for less-technical users (e.g. designers, product managers, interviewers). Each specific statement about the user’s contributions will need to be transformed into a circuit that can be fed into a proving system of choice, and each such circuit manually written. Fortunately, many sub-circuits (gadgets) will be re-usable. In the first iteration, MVP, we aim to provide the ability to prove the following statement:
+- At least X contributions to repository Y
+
+This will showcase the composability of zkGit, i.e. both the count `X` and repo `Y` are configurable. To convince the verifier, they first need to know what the statement is. This could be done by either the prover telling them: “Hey verifier, my `X = 3` and `Y = tornadocash/tornado-core`” - or simply sending the encoded instance together with the proof.
+In the future iterations, we would like to conduct a survey and gather users’ input on what features they care most about. We expect to receive something such as:
+- In top-X contributors to repository Y
+- At least X contributions to one or more of repositories from set {$Y_1, Y_2, ..., Y_n$}
+- Added/modified/deleted X lines in some repository written in Programming Language P with at least S stars
+
+Regardless of the actual statements to be proved, we expect to see a pattern, where the first part of the statement is about the nature of the contributions to be proved, and the second part is about the conditions of such contributions (or: where the contributions has happened). Our goal in the second iteration will be to provide composability of *Contribution Type* + *Contribution Condition*, for a crowd-sourced list of *Contribution Types* and *Contribution Conditions*.
+
 ### Are all contributions equal?
 
 Now, the natural question that arises is whether all contributions should be treated equally. The answer is clearly no. Imagine a user submitting 10 typo fixes versus another user developing an important feature for the protocol. In the naive scenario, the first user would be rewarded 10 times the reputation score of the second, which is clearly not what we want.
@@ -102,10 +115,10 @@ We are in the planning phase.
 ### Milestone 1 - zkGit technology
 
 - **Estimated duration:** 6 months
-- **FTE:** 6
-- **Costs:** USD $360,000
+- **FTE:** 4
+- **Costs:** USD $240,000
 
-Milestone one will be dedicated to the development of the zkGit technology. By the end of Milestone one, we hope to have a Proof of Concept of the zkGit tool, which will lay a foundation for the future work of integrating this into blockchain logic.
+Milestone one will be dedicated to the development of the zkGit technology. By the end of Milestone one, we hope to have a bare Proof of Concept of the zkGit tool, which will lay a foundation for the future work of integrating this into blockchain logic.
 
 The work involved in Milestone one will be cryptographically heavy. We will need to develop arithmetic circuits for the operations needed in zkGit, namely hashing and GPG signature verification. These will later have to be combined to allow users to submit a single proof of contribution, and the verifier logic will check that the signatures are valid, and that the hashes have been performed correctly.
 
@@ -117,23 +130,33 @@ The work involved in Milestone one will be cryptographically heavy. We will need
 
 Milestone two will focus on creating a first version of a standalone substrate chain that integrates the zkGit technology and allows users to prove simple statements about their contributions. As part of Milestone two, we'd also like to demonstrate how an independent parachain would interact with this verifiable reputation system and query and aggregate contribution results to award reputation points to some of its users, in their own customizable way. This means developing a pallet that such a chain would import into the runtime, allowing for seamless integration with the verifiable reputation system, and for hooking into important actions that a user could get involved in, such as voting. Note that Milestone two and the project in general will involve an oracle network. Unlike what we described before, this network will not provide comprehensive data about the contributions. Rather, the only thing that the verifiable reputation system will need to verify contributions will be a digest of the latest commit in any particular repository, thus absolutely minimizing the trust assumption placed on the oracle.
 
-### Milestone 3 - Provable classification model
+### Milestone 3 - zkGit composability
+
+- **Estimated duration:** 2 months
+- **FTE:** 6
+- **Costs:** USD $120,000
+
+The scope of M3 will be to incorporate the composability features detailed in the [zkGit Features](#zkgit-features) section.
+
+This will involve designing user-friendly APIs that would allow developers to easily compose statements about their contributions, and then compile them into arithmetic circuits that can be proved succinctly. This will be a crucial milestone for the project, as it will allow users to prove more complex statements about their contributions, and thus allow for a more fine-grained reputation system.
+
+### Milestone 4 - Provable classification model
 
 - **Estimated duration:** 6 months
 - **FTE:** 6
 - **Costs:** USD $360,000
 
-Milestone three will focus on integrating a scoring mechanism into the system, such that different contributions are rated according to the skill level required, as described above. This will entail either compiling a state-of-the-art "classical" machine learning model into an arithmetic circuit (nontrivial!) or leveraging an existing project that already does this and adjusting it to our needs. Due to the fast-moving nature of the field, especially the incredible advances in ZKML in the recent months, it's difficult to predict just how far the field will advance by the end of Milestone two, so for now this is just a tentative description.
+Milestone four will focus on integrating a scoring mechanism into the system, such that different contributions are rated according to the skill level required, as described above. This will entail either compiling a state-of-the-art "classical" machine learning model into an arithmetic circuit (nontrivial!) or leveraging an existing project that already does this and adjusting it to our needs. Due to the fast-moving nature of the field, especially the incredible advances in ZKML in the recent months, it's difficult to predict just how far the field will advance by the end of Milestone two, so for now this is just a tentative description.
 
 Should it so happen that it's still infeasible to succinctly prove a meaningful AI model for our purposes, as a backup we will revert to utilizing GitHub APIs to provide the scores. However, we are confident that by mid-2024, provable classification models will turn out to be a relatively straightforward objective.
 
-### Milestone 4 - Common Goods Parachain
+### Milestone 5 - Common Goods Parachain
 
 - **Estimated duration:** 6 months
 - **FTE:** 6
 - **Costs:** USD $360,000
 
-Milestone four will be dedicated to bringing together all the features developed in Milestones 1 through 3 and preparing the project for integration as a common good parachain. This is quite a complex task and will likely require deep collaboration with the relevant Parity team knowledgeable about common good parachains.
+Milestone five will be dedicated to bringing together all the features developed in Milestones 1 through 3 and preparing the project for integration as a common good parachain. This is quite a complex task and will likely require deep collaboration with the relevant Parity team knowledgeable about common good parachains.
 
 ## Future Plans
 

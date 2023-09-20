@@ -77,10 +77,10 @@ He has a good theoretical understanding of cryptographic protocols and hands on 
 
 
 We plan to hire three more developers to work on the project full-time by the end of the year, to bring the team count to a total of 6 people:
-- 3 Cryptography/Rust Engineers
-- 1 Cryptography Engineer / Project Lead
-- 1 Senior Rust Engineer
-- 1 Full-stack Engineer
+- 3 Cryptography/Rust Engineers @ $120,000
+- 1 Cryptography Engineer / Project Lead @ $120,000
+- 1 Senior Rust Engineer @ $140,000
+- 1 Full-stack Engineer @ $100,000
 
 ### Team Code Repos
 
@@ -97,13 +97,13 @@ We are in the planning phase.
 
 - **Total Estimated Duration:** 2 years
 - **Full-Time Equivalent (FTE):**  6
-- **Total Costs:** USD $1,500,000
+- **Total Costs:** USD $1,440,000
 
 ### Milestone 1 - zkGit technology
 
 - **Estimated duration:** 6 months
 - **FTE:** 6
-- **Costs:** USD $375,000
+- **Costs:** USD $360,000
 
 Milestone one will be dedicated to the development of the zkGit technology. By the end of Milestone one, we hope to have a Proof of Concept of the zkGit tool, which will lay a foundation for the future work of integrating this into blockchain logic.
 
@@ -113,7 +113,7 @@ The work involved in Milestone one will be cryptographically heavy. We will need
 
 - **Estimated duration:** 6 months
 - **FTE:** 6
-- **Costs:** USD $375,000
+- **Costs:** USD $360,000
 
 Milestone two will focus on creating a first version of a standalone substrate chain that integrates the zkGit technology and allows users to prove simple statements about their contributions. As part of Milestone two, we'd also like to demonstrate how an independent parachain would interact with this verifiable reputation system and query and aggregate contribution results to award reputation points to some of its users, in their own customizable way. This means developing a pallet that such a chain would import into the runtime, allowing for seamless integration with the verifiable reputation system, and for hooking into important actions that a user could get involved in, such as voting. Note that Milestone two and the project in general will involve an oracle network. Unlike what we described before, this network will not provide comprehensive data about the contributions. Rather, the only thing that the verifiable reputation system will need to verify contributions will be a digest of the latest commit in any particular repository, thus absolutely minimizing the trust assumption placed on the oracle.
 
@@ -121,7 +121,7 @@ Milestone two will focus on creating a first version of a standalone substrate c
 
 - **Estimated duration:** 6 months
 - **FTE:** 6
-- **Costs:** USD $375,000
+- **Costs:** USD $360,000
 
 Milestone three will focus on integrating a scoring mechanism into the system, such that different contributions are rated according to the skill level required, as described above. This will entail either compiling a state-of-the-art "classical" machine learning model into an arithmetic circuit (nontrivial!) or leveraging an existing project that already does this and adjusting it to our needs. Due to the fast-moving nature of the field, especially the incredible advances in ZKML in the recent months, it's difficult to predict just how far the field will advance by the end of Milestone two, so for now this is just a tentative description.
 
@@ -131,7 +131,7 @@ Should it so happen that it's still infeasible to succinctly prove a meaningful 
 
 - **Estimated duration:** 6 months
 - **FTE:** 6
-- **Costs:** USD $375,000
+- **Costs:** USD $360,000
 
 Milestone four will be dedicated to bringing together all the features developed in Milestones 1 through 3 and preparing the project for integration as a common good parachain. This is quite a complex task and will likely require deep collaboration with the relevant Parity team knowledgeable about common good parachains.
 

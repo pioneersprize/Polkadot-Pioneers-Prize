@@ -114,8 +114,8 @@ We are in the planning phase.
 
 ### Milestone 1 - zkGit technology
 
-- **Estimated duration:** 6 months
-- **FTE:** 4
+- **Estimated duration:** 4 months
+- **FTE:** 6
 - **Costs:** USD $240,000
 
 Milestone one will be dedicated to the development of the zkGit technology. By the end of Milestone one, we hope to have a bare Proof of Concept of the zkGit tool, which will lay a foundation for the future work of integrating this into blockchain logic.

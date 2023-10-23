@@ -43,7 +43,6 @@ By integrating zero-knowledge proofs into the UniversalDot application, we can e
 - [Personalized Recommendation System Architecture](https://drive.google.com/file/d/1rscD1VDG8EkaGTh9M7BUa3u7nRoBgcwJ/view?usp=sharing)
 
 
-
 ##### Architecture Diagram
 
 ![Architecture](https://raw.githubusercontent.com/UniversalDot/documents/master/designs/architecture/3Tier_Architecturev3.png)
@@ -147,8 +146,8 @@ This section should break the development roadmap down into milestones and deliv
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains  (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
 | 1. | ZKP Design Document | We will create a document that outlines how to ZKP solution integrates within the existing solution. |
-| 2. | ZKP Rust implementation| An example implementation of Zero knowledge proof implemented in Rust |
-| 3. | Unit tests| Unit test that test the implemented functionality |
+| 2. | ZKP Rust implementation| An example implementation of Zero knowledge proof implemented in Rust. It will be a ZK-Snark implementation that makes use/or builds on top of [bellman](https://github.com/zkcrypto/bellman) implementation. |
+| 3. | Unit tests| Unit test that tests the implemented functionality. Minimum of 10 unit tests provided. |
 
 
 ### Milestone 2 - Integration 
@@ -164,8 +163,8 @@ This section should break the development roadmap down into milestones and deliv
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains  (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | ZKP Pallet integration | We will integrate the previously implemented ZKP witt existing pallets |
-| 2. | Unit tests | We will add unit tests that test the new functionality |
+| 1. | ZKP Pallet integration | We will integrate the previously implemented ZKP with existing pallets. It is possible that the whole implementation will be provided as a distinct pallet that can allow other users in the ecosystem to use it for their own purposes. |
+| 2. | Unit tests | We will add unit tests that test the new functionality. Minimum of 20 tests.  |
 | 3. | Benchmarking |  Added benchmarks for new extrinsic functions |
 
 
@@ -179,3 +178,4 @@ Here you can also add any additional information that you think is relevant to t
 
 - We have already completed 80% of the development for the application. 
 - The Filecoin foundation and WEB3 Foundation have already financially contributed toward building this application. 
+- We have researched ZK proofs but have no found then applied in reputation based systems. Furthermore, the implementation we provide will be specific to Substrate as well. 

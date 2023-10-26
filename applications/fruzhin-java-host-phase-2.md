@@ -56,6 +56,7 @@ By increasing the diversification of Host implementations, the proposal enhances
 - Murad Hamza
 - Stoyan Stoyanov
 - Boris Velkovski
+- David Petrov
 - Daniel Ivanov
 
 ### Contact
@@ -86,6 +87,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 - https://github.com/stoyan-lime
 - https://github.com/bokoto000
 - https://github.com/ablax
+- https://github.com/David-Petrov
 
 
 ### Team LinkedIn Profiles (if available)
@@ -112,18 +114,23 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 - **Total Costs:** 314 160 USD
 <br/>
 
+> :exclamation: **Note that the default milestone deliverable 0d (Docker) is not included in any milestone because no dockerization plans exist currently for Fruzhin**
+
 ### Milestone 1 - Protocols
 
 - **Estimated Duration:** 1 month
 - **FTE:**  5
 - **Costs:** 46 816 USD
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 1.1 | Transactions substream | Add /transactions/1 protocol message encoding and decoding |                          
-| 1.2 | Grandpa substream | \- Add /grandpa/1 protocol messages encoding and decoding:<br>\- Vote message<br>\- Commit message<br>\- Catch-up request message<br>\- Catch-up message |
-| 1.3 | Light messages substream | Handle incoming requests for /light/2 |
-| 1.4 | Incoming requests for /sync/2 substream | Handle incoming block requests.<br>Handle incoming state requests |
+| Number | Deliverable                             | Specification                                                                                                                                            |
+|-------:|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     0a | License                                 | Apache 2.0                                                                                                                                               |
+|     0b | Documentation                           | Inline documentation will be provided for every part of the milestone                                                                                    |
+|     0c | Testing                                 | Multitude of unit tests will be written as opposed to integration tests which will be decided on a case by case basis                                    |
+|    1.1 | Transactions substream                  | Add /transactions/1 protocol message encoding and decoding                                                                                               |                          
+|    1.2 | Grandpa substream                       | \- Add /grandpa/1 protocol messages encoding and decoding:<br>\- Vote message<br>\- Commit message<br>\- Catch-up request message<br>\- Catch-up message |
+|    1.3 | Light messages substream                | Handle incoming requests for /light/2                                                                                                                    |
+|    1.4 | Incoming requests for /sync/2 substream | Handle incoming block requests.<br>Handle incoming state requests                                                                                        |
 <br/>
 
 ### Milestone 2 - Host API
@@ -134,6 +141,9 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
+|     0a | License                                 | Apache 2.0                                                                                                                                               |
+|     0b | Documentation                           | Inline documentation will be provided for every part of the milestone                                                                                    |
+|     0c | Testing                                 | Multitude of unit tests will be written as opposed to integration tests which will be decided on a case by case basis                                    |
 | 2.1 | Storage API                   | Implement all Storage API functions. Write unit tests to verify behaviour.|
 | 2.2 | Child Storage API             | Implement all Child Storage API functions. Write unit tests to verify behaviour.|
 | 2.3 | Crypto API                    | Implement all Crypto API functions. Write unit tests to verify behaviour.|
@@ -151,6 +161,9 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
+|     0a | License                                 | Apache 2.0                                                                                                                                               |
+|     0b | Documentation                           | Inline documentation will be provided for every part of the milestone                                                                                    |
+|     0c | Testing                                 | Multitude of unit tests will be written as opposed to integration tests which will be decided on a case by case basis                                    |
 | 3.1 | System | Implement all System RPC methods. Write unit tests to verify behaviour -> Most System RPC methods have already been implemented as part of the light client |
 | 3.2 | Chain| Implement all Chain RPC methods. Write unit tests to verify behaviour|
 | 3.3 | Offchain | Implement all Offchain RPC methods. Write unit tests to verify behaviour|
@@ -168,6 +181,9 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
+|     0a | License                                 | Apache 2.0                                                                                                                                               |
+|     0b | Documentation                           | Inline documentation will be provided for every part of the milestone                                                                                    |
+|     0c | Testing                                 | Multitude of unit tests will be written as opposed to integration tests which will be decided on a case by case basis                                    |
 | 4.1 | Populate state storage with official genesis state | Host is able to calculate the Merkle root using the genesis data for Polkadot, Kusama, Westend |
 | 4.2 | Process genesis hashes and replace the existing hard-coded ones | GenesishHash file is replaced with dynamic calculation of genesis state |
 | 4.3 | Change substream identifiers to use genesis hash | Host can be launched with either the old or the new protocol identifiers for Polkadot, Kusama, Westend |
@@ -190,13 +206,16 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Milestone 6 - VRF Proofs
 
-- **Estimated Duration:** 1 months
+- **Estimated Duration:** 1 month
 - **FTE:**  5
 - **Costs:** 46 816 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 6.1 | DLEQ Proofs Generation   | Function creates a proof for a given input (i), based on the provided transcript(T). Write unit tests in order to verify correct behaviour. |
+|     0a | License                                 | Apache 2.0                                                                                                                                             |
+|     0b | Documentation                           | Inline documentation will be provided for every part of the milestone                                                                                  |
+|     0c | Testing                                 | Multitude of unit tests will be written as opposed to integration tests which will be decided on a case by case basis                                  |
+| 6.1 | DLEQ Proofs Generation   | Function creates a proof for a given input (i), based on the provided transcript(T) |
 | 6.2 | DLEQ Proofs Verification | Function verifiers the VRF input (i) against the output(o) with the associated proof and public key(pk) |
 <br/>
 
@@ -231,14 +250,14 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 - **FTE:**  2
 - **Costs:** 9 240 USD
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 9.1 | Create a [code of conduct](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project). | A markdown file, which describes the rules, responsibilities, standards, scope and enforcements. File must be situated in the code repository and referenced in the README. |
-| 9.2 | Add License |  |
-| 9.3 | Add Contributor guidelines that outline the steps for contributors | A markdown file, which describes the contributor guidelines. File must be situated in the code repository and referenced in the README. |
-| 9.4 | Issues and pull request templates | Issue and pull request templates, used whenever someone wants to open a Github issue or pull request.|
+| Number | Deliverable | Specification                                                                                                                                                                   |
+| -----: | ----------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 9.1 | Create a [code of conduct](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project). | A markdown file, which describes the rules, responsibilities, standards, scope and enforcements. File must be situated in the code repository and referenced in the README.     |
+| 9.2 | Add License | Apache 2.0 License                                                                                                                                                              |
+| 9.3 | Add Contributor guidelines that outline the steps for contributors | A markdown file, which describes the contributor guidelines. File must be situated in the code repository and referenced in the README.                                         |
+| 9.4 | Issues and pull request templates | Issue and pull request templates, used whenever someone wants to open a Github issue or pull request.                                                                           |
 | 9.5 | Changelog| Create a CHANGELOG markdown file, which lists the changes made in each version of the runtime repository.<br>File must be situated in the code repository and referenced in the README. |
-| 9.6 | Dependabot setup| Configure Dependabot that creates a PR every time a new version of a dependency is released |
+| 9.6 | Dependabot setup| Configure Dependabot that creates a PR every time a new version of a dependency is released                                                                                     |
 | 9.7 | Binary | 
 <br/>
 
@@ -248,9 +267,10 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 - **FTE:**  1
 - **Costs:** 3 696 USD
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 10.1 | Documentation | Review all previous milestones to ensure they have complete documentation, inline documentation, and maintenance docs |
+| Number | Deliverable   | Specification                                                                                                                                                       |
+|-------:|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     0e | Article       | We will publish an article showcasing the newly added functionalities to Fruzhin and giving users a comprehensive guide they can follow on how to use the Full Node |
+|   10.1 | Documentation | Review all previous milestones to ensure they have complete documentation, inline documentation, and maintenance docs                                               |
 <br/>
 
 ### Milestone 11 - Research

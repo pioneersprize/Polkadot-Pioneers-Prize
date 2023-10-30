@@ -20,7 +20,7 @@ We are a small team (20+ members) with finite resources, and want to collaborate
 
 ### Project Details
 
-![zk Login Overview](https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text[…]verview)
+[zk Login Overview](https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text[…]verview)
 
 **Reclaim Protocol Technical Deep Dive**
 

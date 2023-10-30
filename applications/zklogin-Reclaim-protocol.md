@@ -28,9 +28,10 @@ Reclaim empowers users to generate Zero-Knowledge Proofs for any online user pro
 
 The website's encrypted response is then processed by a zk-circuit, which identifies a regex match within the encrypted data using a decryption key as a confidential input. The attestor further validates that the zk-circuit's public input was indeed the encrypted data sourced from the website. With these attestations on both the request and the encrypted response, coupled with the zk-proof, any third-party application, whether on-chain or off-chain, can verify the existence of data that exists on the user’s profile.
 
-![Reclaim Protocol Overview](Reclaim%20Protocol%20Overview.png)
+[Reclaim Protocol Overview]( https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text[…]verview
+)
 
-![zk Circuit](zk%20circuit.png)
+[zk Circuit](https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text[…]olkadot)
 
 User credentials in Reclaim Protocol are generated and stored completely on the client side. Using Reclaim, users can generate Proofs(Groth16) in less than 10 secs even on a 2015 Android Device! 
 
@@ -61,13 +62,14 @@ Currently, there is no way for users' to login and interact with on-chain Dapps 
 
 **Comments from Polkadot’s community members on the forum**
 
-![Comment - 1](Comment%20-%201.png)
+[Comment - 1]( https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text[…]%2D%202)
 
 
-![Comment - 2](Comment%20-%202.png)
+[Comment - 2]( https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text[…]%2D%203)
 
 
-![Comment - 3](Comment%20-%203.png)
+[Comment - 3]( https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text[…]e%20for
+)
 
 
  **A case for building Proof of Personhood Primitives**

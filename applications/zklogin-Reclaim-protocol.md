@@ -153,7 +153,7 @@ Website - https://www.reclaimprotocol.org/
 
 ### Team's experience
 
-Reclaim Protocol is built by the team at CreatorOS Inc. We are a 20+ member engineering and web3 product development & research team including ZKP researchers and with previous affiliations to Stanford, Microsoft, Meta and Google . We have also built - [Questbook.app](http://Questbook.app), an industry leading on-chain grants management tool that is used by some of the major L1/L2s including Polygon, Solana, Compound, Arbitrum, and Ton, among others.  CreatorOS is a YC W21 company.
+Reclaim Protocol is built by the team at CreatorOS Inc. We are a 20+ member engineering and web3 product development & research team including ZKP researchers and with previous affiliations to Stanford, Microsoft, Meta and Google . We have also built - [Questbook.app](http://Questbook.app), an industry leading on-chain grants management tool that has been/is being used by some of the major L1/L2s including Polygon, Solana, Compound, Arbitrum, and Ton, among others.  CreatorOS is a YC W21 company.
 
 - Madhavan Malolan : CEO, Reclaim Protocol
     - Building in crypto since 2016.

@@ -255,11 +255,11 @@ We will offer the Polkadot ecosystem ongoing development support for four months
 
 **Milestones, Deliverables and FTEs required**
 
-1.Milestone - 1 : Project Kickoff & Grant Approval -$5,000, FTE - 1
+1.Milestone - 1 : Project Kickoff & Proposal Acceptance - $5,000, FTE - 1
 
 Deliverable
 
-Proposal acceptance announcement and a kickoff call with the Polkadot community, more specifically with builders to for a technical deep dive of Reclaim and Q&A session
+Proposal acceptance announcement and a kickoff call with the Polkadot community, more specifically with builders for a technical deep dive of Reclaim and Q&A session
 
 2.Milestone - 2 : Reclaim Polkadot Integration - $40,000, FTE - 3
 

@@ -245,6 +245,7 @@ Explainer Blogposts - https://blog.reclaimprotocol.org/
 In the first phase of the project, we will integrate the Reclaim protocol with Polkadot to establish the proof of personhood and bot protection infrastructure, along with publishing comprehensive documentation to assist developers in enabling these use cases within their dApps.
 
 **Total Estimated Duration** 
+
 ~ 3 weeks
 
 **Cost**
@@ -370,6 +371,7 @@ Deliverables
 In phase - 3, we will involve the Polkadot community, more specifically builders to implement proof of personhood, bot protection primitives and optimise end to end user experience based on the active feedback collected through various channels 
 
 **Total Estimated Duration** 
+
 ~ 2.5 months 
 
 **Cost**

@@ -50,7 +50,7 @@ ZK Circuit Security Audit - https://blog.reclaimprotocol.org/posts/chacha-circui
 
 **Adoption**
 
-Reclaim Protocol is live on production and is currently used by experienced Dapp developers to build novel use cases such as a [whistleblower protocol](https://whistleblower-frontend-acez.onrender.com/),  [decentralised P2P exchange](https://www.p2px.finance/)**,** which has already done ~$120,000 in volumes in just nine weeks after launch.
+Reclaim Protocol is live on production and is currently used by experienced Dapp developers to build novel use cases such as a [whistleblower protocol](https://whistleblower-frontend-acez.onrender.com/),  [decentralised P2P exchange](https://www.p2px.finance/)**,** which has already done [~$120,000](https://dune.com/p2px/metrics) in volumes in just nine weeks after launch.
 
 
 ### Ecosystem Fit

@@ -255,6 +255,7 @@ We will offer the Polkadot ecosystem ongoing development support for four months
 1. Milestone - 1 : Project Kickoff & Grant Approval -$5,000, FTE - 1
 
 Deliverable
+
 Proposal acceptance announcement and a kickoff call with the Polkadot community, more specifically with builders to for a technical deep dive of Reclaim and Q&A session
 
 2. Milestone - 2 : Reclaim Polkadot Integration - $40,000, FTE - 3
@@ -273,7 +274,9 @@ Deliverables
 | 0d.  | Docker  | We will provide Dockerfile(s) (if any) that can be used to test all the functionality delivered with this milestone. |
 
 3. Milestone - 3 : Comprehensive documentation, blogposts, and community calls within the Polkadot ecosystem - $5,000, FTE - 2
+
 Deliverable 
+
 Detailed documentation, blogposts and atleast 2 community calls to educate, seed ideas to the Polkadot community about utilising Reclaim protocol for implementing Proof of Personhood and Bot production within their Dapps 
 
 | Number | Deliverable | Specification |

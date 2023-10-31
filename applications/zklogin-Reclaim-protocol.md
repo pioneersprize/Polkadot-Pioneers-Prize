@@ -14,13 +14,13 @@ Reclaim protocol will allow Dapps within the Polkadot ecosystem to provide zk lo
 
 Additionally, after speaking with the members of the Polkadot Foundation, we have been able to identify zklogin and [epassport](https://github.com/w3f/Grants-Program/blob/master/docs/RFPs/epassport-zk-validation.md) to be an important use case for Dapp builders and users that be implemented uniquely through Reclaim Protocol. Through Reclaim, users can not only validate their login credentials but also provide verifiable proofs of various personal attributes and activities. For instance, they can prove the number of rides taken on Uber, expenditures on Amazon, or their scores on Chess.com, thereby establishing a robust proof of personhood which is instrumental in combating fraudulent actors and bots. Such proof of personhood can now be made available onchain via Reclaim protocol within the Polkadot ecosystem.
 
-We are a small team (20+ members) with finite resources, and want to collaborate with ecosystems that demonstrate a genuine commitment to enable use cases that are likely to scale to a billion users. Our team comprises of primarily engineers who have previously worked at Meta, Microsoft, Google, and have contributed to various web3 open source projects. Given Polkadot's strong emphasis on streamlining user onboarding,  user experience, and implementing bot protection, coupled with our team's expertise and background, we believe that our team is one of the most suited to realise Polkadot's vision of building zk login and implementing Proof of Personhood for Dapps on top of Polkadot.
+We are a small team (20+ members) with finite resources and want to collaborate with ecosystems that demonstrate a genuine commitment to enable use cases that are likely to scale to a billion users. Our team comprises of primarily engineers who have previously worked at Meta, Microsoft, Google, and have contributed to various web3 open source projects. Given Polkadot's strong emphasis on streamlining user onboarding,  user experience, and implementing bot protection, coupled with our team's expertise and background, we believe that our team is one of the most suited to realise Polkadot's vision of building zk login and implementing Proof of Personhood for Dapps on top of Polkadot.
 
 
 
 ### Project Details
 
-[zk Login Overview](https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text[…]verview)
+[zk Login Overview](https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text=using%20Reclaim%20Protocol-,zk%20Login%20Overview,-Reclaim%20Protocol%20Overview)
 
 **Reclaim Protocol Technical Deep Dive**
 
@@ -28,10 +28,9 @@ Reclaim empowers users to generate Zero-Knowledge Proofs for any online user pro
 
 The website's encrypted response is then processed by a zk-circuit, which identifies a regex match within the encrypted data using a decryption key as a confidential input. The attestor further validates that the zk-circuit's public input was indeed the encrypted data sourced from the website. With these attestations on both the request and the encrypted response, coupled with the zk-proof, any third-party application, whether on-chain or off-chain, can verify the existence of data that exists on the user’s profile.
 
-[Reclaim Protocol Overview]( https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text[…]verview
-)
+[Reclaim Protocol Overview](https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text=Reclaim%20Protocol%20Overview)
 
-[zk Circuit](https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text[…]olkadot)
+[zk Circuit](https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text=Reclaim%20Protocol%20Overview-,zk%20Circuit,-Comments%20from%20Polkadot)
 
 User credentials in Reclaim Protocol are generated and stored completely on the client side. Using Reclaim, users can generate Proofs(Groth16) in less than 10 secs even on a 2015 Android Device! 
 
@@ -58,23 +57,20 @@ Reclaim Protocol is live on production and is currently used by experienced Dapp
 
 ### **Problem Statement**
 
-Currently, there is no way for users' to login and interact with on-chain Dapps using the same logins they are accustomed to on Web 2 apps such as Google, Facebook, Twitter logins. Furthermore, there is no way to bridge user’s data from Web2 to Web 3. Oracles such as chainlink are effective at bridging publicly available data. However, private data that often resides behind a user login is inaccessible on-chain. e.g. number of Uber rides a user has taken is accessible only after the user has successfully logged in. This lack of a seamless bridge for private data between Web2 and Web3 creates a disconnect between user identities on different centralized platforms and restricts their utility on-chain across Dapps.
+Currently, there is no way for users to login and interact with on-chain Dapps using the same logins they are accustomed to on Web 2 apps such as Google, Facebook, Twitter logins. Furthermore, there is no way to bridge user’s data from Web2 to Web 3. Oracles such as chainlink are effective at bridging publicly available data. However, private data that often resides behind a user login is inaccessible on-chain. e.g. number of Uber rides a user has taken is accessible only after the user has successfully logged in. This lack of a seamless bridge for private data between Web2 and Web3 creates a disconnect between user identities on different centralized platforms and restricts their utility on-chain across Dapps.
 
 **Comments from Polkadot’s community members on the forum**
 
-[Comment - 1]( https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text[…]%2D%202)
+[Comment - 1](https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text=Polkadot%20Community%20Members-,Comment%20%2D%201,-Comment%20%2D%202)
 
 
-[Comment - 2]( https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text[…]%2D%203)
+[Comment - 2](https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text=Comment%20%2D%201-,Comment%20%2D%202,-Comment%20%2D%203)
 
 
-[Comment - 3]( https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text[…]e%20for
-)
+[Comment - 3](https://questbook.notion.site/Implementing-zklogin-and-Proof-of-Personhood-using-Reclaim-Protocol-6a1d31a7d70c46c482682742abbbe0cb#:~:text=Comment%20%2D%202-,Comment%20%2D%203,-A%20case%20for)
 
 
- **A case for building Proof of Personhood Primitives**
-
-[Tweet from Stani.lens](https://twitter.com/stanikulechov/status/1717194504787100145?s=46&t=ZmnjQV9BqONGTPrJcABIeg)
+[A case for building Proof of Personhood Primitives](https://twitter.com/stanikulechov/status/1717194504787100145?s=46&t=ZmnjQV9BqONGTPrJcABIeg)
 
 The absence of a streamlined user onboarding process is keeping potentially millions, if not billions, of users from embracing and experiencing the benefits of Web3. Presently, developers lack the means to seamlessly integrate popular OAuth providers and user profiles into their dApps' onboarding processes, primarily because of the absence of foundational tools and comprehensive documentation related to primitives such as zkLogin. As other ecosystems build their own solutions to address this challenge in future, the Polkadot ecosystem risks the possibility of falling behind.
 
@@ -100,21 +96,20 @@ For billions of users to start using on-chain applications, we need three founda
 - **Bot Protection** -  By leveraging data from off-chain real-world actions, a robust proof of personhood construct can be built. For instance, if a user has completed 50 Uber rides, spent $1000 on Amazon, and holds an 1100 rating on Chess.com, the likelihood of them being a bot is significantly reduced. Rather than relying on on-chain activity, which can be easily manipulated to ascertain whether a user is a bot, utilizing off-chain data to formulate a user's humanness profile can effectively weed out bots that significantly hampers Web3 usability today.
 
 **Target Audience**
+
 Our proposal primarily aims to benefit **builders** to seamlessly leverage Reclaim protocol into their Dapps and get access to Web2 user data gated by Web2 servers to build innovative use cases. Moreover, these builders can leverage zkLogin, Proof of Personhood,  bot protection primitives built by our team to significantly enhance new user onboarding and user experience.
 
 Moreover, all end users will significantly benefit from the primitives such as zklogin, proof of personhood, thereby experiencing a significant user experience enhance across Dapps within the Polkadot ecosystem. 
 
 **Other Similar Projects**
 
-Similar products, including zkPass and TLSNotary, are currently in the testnet phase, whereas Gitcoin passport offers a centralised solution. Reclaim protocol is the only solution live on main net that empowers users to generate proofs zk proofs **on a mobile phone in under 10 seconds against their claims** in a privacy-preserving way without making any changes to the server. More specifically, Sui ecosystem recently launched [Sui zk Login](https://sui.io/)
-
-, which is natively built for Sui and supports providers that work with Open ID Connect built on top of OAuth 2 framework. However, Sui only works with very limited number of logins such as Google/Facebook/Twitch login whereas Reclaim works for any OAuth and non OAuth based logins.
+Similar products, including zkPass and TLSNotary, are currently in the testnet phase, whereas Gitcoin passport offers a centralised solution. Reclaim protocol is the only solution live on main net that empowers users to generate proofs zk proofs **on a mobile phone in under 10 seconds against their claims** in a privacy-preserving way without making any changes to the server. More specifically, Sui ecosystem recently launched [Sui zk Login](https://sui.io/), which is natively built for Sui and supports providers that work with Open ID Connect built on top of OAuth 2 framework. However, Sui only works with very limited number of logins such as Google/Facebook/Twitch login whereas Reclaim works for any OAuth and non OAuth based logins.
 
 **Why build on Polkadot Ecosystem?**
 
 We are a small team with finite resources, and want to collaborate with ecosystems that demonstrate a genuine commitment to enable use cases that are likely to scale to a billion users. Specifically, we want to build on ecosystems that exhibit a strong desire to leverage Web2 sources to provide seamless user onboarding and bot protection. To our knowledge, there hasn't been any other ecosystem that has declared its dedication to [streamlining user onboarding and experience](https://forum.polkadot.network/t/the-best-ui-ux-in-the-polkadot-ecosystem/370) and [bot protection](https://github.com/w3f/Grants-Program/blob/master/docs/RFPs/epassport-zk-validation.md).
 
-Moreover, our conversation with members of the Web3 Foundation and community regarding the necessity and use cases surrounding user experience and onboarding gave us a clear understanding of Polkadot's ecosystem's priorities which strongly aligns with our approach to to enhance user experience through zk login and bot protection.
+Moreover, our conversation with members of the Web3 Foundation and community regarding the necessity and use cases surrounding user experience and onboarding gave us a clear understanding of Polkadot's ecosystem's priorities which strongly aligns with our approach to enhance user experience through zk login and bot protection.
 
 
 ## Team :busts_in_silhouette:
@@ -257,10 +252,11 @@ We will offer the Polkadot ecosystem ongoing development support for four months
 
 **Milestones, Deliverables and FTEs required**
 
-1. Milestone - 1 ⇒ Project Kickoff & Grant Approval -$5,000, FTE - 1
-Deliverable - Proposal acceptance announcement and a kickoff call with the Polkadot community, more specifically with builders to for a technical deep dive of Reclaim and Q&A session
+1. Milestone - 1 : Project Kickoff & Grant Approval -$5,000, FTE - 1
+Deliverable
+Proposal acceptance announcement and a kickoff call with the Polkadot community, more specifically with builders to for a technical deep dive of Reclaim and Q&A session
 
-2. Milestone - 2 ⇒ Reclaim Polkadot Integration - $40,000, FTE - 3 
+2. Milestone - 2 : Reclaim Polkadot Integration - $40,000, FTE - 3 
 Deliverables
 - Successfully deploying of Reclaim Contracts
 - Effectively deploying Semaphore Contracts
@@ -274,8 +270,9 @@ Deliverables
 | 0c.  | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. |
 | 0d.  | Docker  | We will provide Dockerfile(s) (if any) that can be used to test all the functionality delivered with this milestone. |
 
-3. Comprehensive documentation, blogposts, and community calls within the Polkadot ecosystem - $5,000, FTE - 2
-Deliverable - Detailed documentation, blogposts and atleast 2 community calls to educate, seed ideas to the Polkadot community about utilising Reclaim protocol for implementing Proof of Personhood and Bot production within their Dapps 
+3. Milestone - 3 : Comprehensive documentation, blogposts, and community calls within the Polkadot ecosystem - $5,000, FTE - 2
+Deliverable 
+Detailed documentation, blogposts and atleast 2 community calls to educate, seed ideas to the Polkadot community about utilising Reclaim protocol for implementing Proof of Personhood and Bot production within their Dapps 
 
 | Number | Deliverable | Specification |
 | --- | --- | --- |
@@ -285,8 +282,8 @@ Deliverable - Detailed documentation, blogposts and atleast 2 community calls to
 
 After laying out the proof of personhood/bot protection infrastructure on top of Polkadot, in phase - 2, we will implement zk Login on Polkadot and work closely with Dapp developers to leverage, utilise it into their Dapps
 
-**Total Estimated Duration 
-~**2 months 
+**Total Estimated Duration**
+~2 months 
 
 **Cost**
 
@@ -372,7 +369,7 @@ $25,000
 
 **Milestones and Deliverables**
 
-1. Atleast two Dapps on production that implement Proof of Personhood and bot production primitives - $15,000, FTE - 2
+1. Milestone - 1: Atleast two Dapps on production that implement Proof of Personhood and bot production primitives - $15,000, FTE - 2
 
 Deliverable - Atleast two new/existing Dapps within the Polkadot ecosystem that implement Proof of Personhood/bot production within their Dapps using Reclaim protocol
 
@@ -381,7 +378,7 @@ Deliverable - Atleast two new/existing Dapps within the Polkadot ecosystem that 
 | 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. |
 | 0e. | Article | We will publish an article/workshop that explains this implementation |
 
-2. Optimising User Experience, Documentation and marketing - $10,000 FTE - 2, 
+2. Milestone - 2: Optimising User Experience, Documentation and marketing - $10,000 FTE - 2, 
     
 Deliverables 
     

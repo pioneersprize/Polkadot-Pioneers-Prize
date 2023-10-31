@@ -252,13 +252,13 @@ We will offer the Polkadot ecosystem ongoing development support for four months
 
 **Milestones, Deliverables and FTEs required**
 
-1. Milestone - 1 : Project Kickoff & Grant Approval -$5,000, FTE - 1
+1.Milestone - 1 : Project Kickoff & Grant Approval -$5,000, FTE - 1
 
 Deliverable
 
 Proposal acceptance announcement and a kickoff call with the Polkadot community, more specifically with builders to for a technical deep dive of Reclaim and Q&A session
 
-2. Milestone - 2 : Reclaim Polkadot Integration - $40,000, FTE - 3
+2.Milestone - 2 : Reclaim Polkadot Integration - $40,000, FTE - 3
 
 Deliverables
 - Successfully deploying of Reclaim Contracts
@@ -273,7 +273,7 @@ Deliverables
 | 0c.  | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. |
 | 0d.  | Docker  | We will provide Dockerfile(s) (if any) that can be used to test all the functionality delivered with this milestone. |
 
-3. Milestone - 3 : Comprehensive documentation, blogposts, and community calls within the Polkadot ecosystem - $5,000, FTE - 2
+3.Milestone - 3 : Comprehensive documentation, blogposts, and community calls within the Polkadot ecosystem - $5,000, FTE - 2
 
 Deliverable 
 

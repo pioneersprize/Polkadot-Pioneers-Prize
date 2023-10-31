@@ -253,10 +253,12 @@ We will offer the Polkadot ecosystem ongoing development support for four months
 **Milestones, Deliverables and FTEs required**
 
 1. Milestone - 1 : Project Kickoff & Grant Approval -$5,000, FTE - 1
+
 Deliverable
 Proposal acceptance announcement and a kickoff call with the Polkadot community, more specifically with builders to for a technical deep dive of Reclaim and Q&A session
 
-2. Milestone - 2 : Reclaim Polkadot Integration - $40,000, FTE - 3 
+2. Milestone - 2 : Reclaim Polkadot Integration - $40,000, FTE - 3
+
 Deliverables
 - Successfully deploying of Reclaim Contracts
 - Effectively deploying Semaphore Contracts
@@ -283,6 +285,7 @@ Detailed documentation, blogposts and atleast 2 community calls to educate, seed
 After laying out the proof of personhood/bot protection infrastructure on top of Polkadot, in phase - 2, we will implement zk Login on Polkadot and work closely with Dapp developers to leverage, utilise it into their Dapps
 
 **Total Estimated Duration**
+
 ~2 months 
 
 **Cost**

@@ -311,7 +311,7 @@ Deliverables
 | --- | --- | --- |
 | 0b. | Documentation | We will provide both inline documentation of the code |
 
-Milestone - 2: SDK Development - $50,000, FTE: 3
+Milestone - 2: SDK Development - $50,000, FTE: 4
 
 Deliverables
 - Building SDKs to enable Dapp builders to implement zk Login using Reclaim

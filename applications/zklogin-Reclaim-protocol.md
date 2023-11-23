@@ -10,7 +10,7 @@
 
 Currently, users are accustomed to logging into centralized login systems such as Google, Facebook, and Twitter to access these services, but they have no way to use this on-chain. These conventional login methods are incompatible with on-chain verifications, thus creating a disconnect between user identities on different centralized platforms and restricting their utility on-chain across Dapps.
 
-Reclaim protocol will allow Dapps within the Polkadot ecosystem to provide zk login for its users. It will enable Dapp users to log into any website and generate a zkproof of their login that can be verified onchain. Reclaim Protocol makes https traffic verifiable using Zero-Knowledge Proofs, enabling users to generate verifiable credentials from any of their online user profiles. This unlocks unlimited possibilities as no APIs are required or no changes to be made to the websites to extract private user data, while guaranteeing data integrity. Web2 user data which was elusive to Web3 till now will be available to builders across the Polkadot ecosystem. This opens up opportunities for a new wave of applications that can support zklogin, proof of personhood, and bot protection. 
+Reclaim protocol will allow Dapps within the Polkadot ecosystem to provide zk login for its users. It will enable Dapp users to log into any website and generate a zkproof of their login that can be verified onchain. Reclaim Protocol makes https traffic verifiable using Zero-Knowledge Proofs, enabling users to generate verifiable credentials from any of their online user profiles. This unlocks unlimited possibilities as no APIs are required or no changes to be made to the websites to extract private user data, while guaranteeing data integrity. Web2 user data which was elusive to Web3 till now will be available to builders across the Polkadot ecosystem. Reclaim empowers developers to make Web2 composable. This opens up opportunities for a new wave of applications that can support zklogin, proof of personhood, and bot protection. 
 
 Additionally, after speaking with the members of the Polkadot Foundation, we have been able to identify zklogin and [epassport](https://github.com/w3f/Grants-Program/blob/master/docs/RFPs/epassport-zk-validation.md) to be important use cases for Dapp builders and users that can be implemented uniquely through Reclaim Protocol. Through Reclaim, users can not only validate their login credentials but also provide verifiable proofs of various personal attributes and activities. For instance, they can prove the number of rides taken on Uber, expenditures on Amazon, or their scores on Chess.com, thereby establishing a robust proof of personhood which is instrumental in combating fraudulent actors and bots. Such proof of personhood can now be made available on-chain via Reclaim protocol within the Polkadot ecosystem.
 
@@ -50,7 +50,7 @@ ZK Circuit Security Audit - https://blog.reclaimprotocol.org/posts/chacha-circui
 
 **Adoption**
 
-Reclaim Protocol is live on production and is currently used by experienced Dapp developers to build novel use cases such as a [whistleblower protocol](https://whistleblower-frontend-acez.onrender.com/),  [decentralised P2P exchange](https://www.p2px.finance/)**,** which has already done [~$120,000](https://dune.com/p2px/metrics) in volumes in just nine weeks after launch.
+Reclaim Protocol is live on production and is currently used by experienced Dapp developers to build novel use cases such as a [whistleblower protocol](https://whistleblower-frontend-acez.onrender.com/),  [decentralised P2P exchange](https://www.p2px.finance/)**,** which has already done [~$135,000](https://dune.com/p2px/metrics) in volumes in just nine weeks after launch.
 
 
 ### Ecosystem Fit
@@ -97,9 +97,9 @@ For billions of users to start using on-chain applications, we need three founda
 
 **Target Audience**
 
-Our proposal primarily aims to benefit **builders** to seamlessly leverage Reclaim protocol into their Dapps and get access to Web2 user data gated by Web2 servers to build innovative use cases. Moreover, these builders can leverage zkLogin, Proof of Personhood,  bot protection primitives built by our team to significantly enhance new user onboarding and user experience.
+Reclaim protocol empowers developers to make Web2 composable. Our proposal primarily aims to benefit **builders** to seamlessly leverage Reclaim protocol into their Dapps and get access to Web2 user data gated by Web2 servers to build innovative use cases. Moreover, these builders can leverage zkLogin, Proof of Personhood,  and bot protection primitives built by our team to significantly enhance new user onboarding and user experience. 
 
-Moreover, all end users will significantly benefit from the primitives such as zklogin, proof of personhood, thereby experiencing a significant user experience enhance across Dapps within the Polkadot ecosystem. 
+Moreover, all end users will significantly benefit from the primitives such as zklogin, proof of personhood, thereby experiencing a significant user experience enhancement across Dapps within the Polkadot ecosystem. 
 
 **Other Similar Projects**
 
@@ -265,20 +265,17 @@ Deliverables
     | 0b. | Documentation  | We will provide both inline documentation of the code |
     | 0c.  | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. |
     | 0d.  | Docker  | We will provide Dockerfile(s) (if any) that can be used to test all the functionality delivered with this milestone. |
-    | 1.  | Integrating Reclaim Protocol with Polkadot | We will deploy Reclaim contracts as a  pallet on Polkadot in RUST, ensuring compatibility with Polkadot's runtime environment.
-    
-    Currently, the Reclaim contracts are implemented in Solidity. The Solidity code can be found https://github.com/reclaimprotocol/solidity-sdk/blob/main/contracts/Reclaim.sol#L229C11-L229C22 |
+    | 1.  | Integrating Reclaim Protocol with Polkadot | We will deploy Reclaim contracts as a  pallet on Polkadot in RUST, ensuring compatibility with Polkadot's runtime environment. Currently, the Reclaim contracts are implemented in Solidity. The Solidity code can be found https://github.com/reclaimprotocol/solidity-sdk/blob/main/contracts/Reclaim.sol#L229C11-L229C22 |
     | 2.  | Optimising zkProofs  | We will optimize zkProof verification for Polkadot’s constraints, including time, gas and computational resource efficiency. |
-    | 3.  | Integration and Testing  | We will develop and execute a suite of tests, including unit, integration, and stress tests, to validate the functionality and performance. 
-    
-    Testing will be automated using a CI/CD pipeline to ensure that each build is verified, which will include code coverage and performance benchmarks. |
+    | 3.  | Integration and Testing  | We will develop and execute a suite of tests, including unit, integration, and stress tests, to validate the functionality and performance. Testing will be automated using a CI/CD pipeline to ensure that each build is verified, which will include code coverage and performance benchmarks.|
+
 2. Milestone - 2: Comprehensive documentation, blogposts, and community calls within the Polkadot ecosystem  - $5,000, FTE - 2
 Deliverable 
 
 | Number | Deliverable | Specification |
 | --- | --- | --- |
 | 0e. | Article | We will publish an article/workshop that explains this integration  |
-| 1.  | Detailed Documentation and Guides  | We will publish detailed documentation, blogposts and participate in atleast 2 community calls to educate, seed ideas to the Polkadot developer community about how to use Reclaim Protocol for implementing Proof of Personhood and Bot protection primitives within their Dapps 
+| 1.  | Detailed Documentation and Guides  | We will publish detailed documentation, blogposts and participate in atleast 2 community calls to educate, seed ideas to the Polkadot developer community about how to use Reclaim Protocol for implementing Proof of Personhood and Bot protection primitives within their Dapps |
 
 Documentation will include a technical guide, API references, and example use cases to facilitate developer integration. |
 
@@ -325,17 +322,13 @@ Deliverables
 | Number | Deliverable | Specification |
 | --- | --- | --- |
 | 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. |
-| 1.  | Security audit of zk Login implementation  | We will contract a reputable third-party security firm to conduct an exhaustive security audit of the zkLogin implementation, including smart contracts and integration layers, with a detailed report of findings and remediation strategies.
-
-For instance, https://www.zksecurity.xyz/blog/posts/reclaim/ of Reclaim protocol. We are working closely with them to get other modules audited.  |
+| 1.  | Security audit of zk Login implementation  | We will contract a reputable third-party security firm to conduct an exhaustive security audit of the zkLogin implementation, including smart contracts and integration layers, with a detailed report of findings and remediation strategies. For instance, https://www.zksecurity.xyz/blog/posts/reclaim/ of Reclaim protocol. We are working closely with them to get other modules audited.  |
 | 2.  | Integration Testing with Polkadot  | We will execute a series of integration tests to ensure that the zkLogin system works seamlessly within the Polkadot ecosystem, including cross-chain interactions and transaction handling. |
 | 3.  | Performance Testing and Optimization | We will perform comprehensive performance testing to benchmark and optimize the zkLogin system, ensuring it meets the scalability and efficiency standards required for Polkadot's environment. |
 
 Milestone - 4: Dapp Builder Toolkit - $40,000, FTE: 3
 
 Deliverables
-
- 
 
 | Number | Deliverable | Specification |
 | --- | --- | --- |

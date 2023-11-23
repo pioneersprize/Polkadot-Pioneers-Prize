@@ -255,36 +255,35 @@ We will offer the Polkadot ecosystem ongoing development support for four months
 
 **Milestones, Deliverables and FTEs required**
 
-1. Milestone - 1 : Reclaim Polkadot Integration - $40,000, FTE - 3 
+1. Milestone - 1 : Reclaim Polkadot Integration - $40,000, FTE - 3
+
 Deliverables
-    
-    
-    | Number | Deliverable | Specification |
-    | --- | --- | --- |
-    | 0a. | License | GPL  |
-    | 0b. | Documentation  | We will provide both inline documentation of the code |
-    | 0c.  | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. |
-    | 0d.  | Docker  | We will provide Dockerfile(s) (if any) that can be used to test all the functionality delivered with this milestone. |
-    | 1.  | Integrating Reclaim Protocol with Polkadot | We will deploy Reclaim contracts as a  pallet on Polkadot in RUST, ensuring compatibility with Polkadot's runtime environment. Currently, the Reclaim contracts are implemented in Solidity. The Solidity code can be found https://github.com/reclaimprotocol/solidity-sdk/blob/main/contracts/Reclaim.sol#L229C11-L229C22 |
-    | 2.  | Optimising zkProofs  | We will optimize zkProof verification for Polkadot’s constraints, including time, gas and computational resource efficiency. |
-    | 3.  | Integration and Testing  | We will develop and execute a suite of tests, including unit, integration, and stress tests, to validate the functionality and performance. Testing will be automated using a CI/CD pipeline to ensure that each build is verified, which will include code coverage and performance benchmarks.|
+
+| Number | Deliverable | Specification |
+| --- | --- | --- |
+| 0a. | License | GPL  |
+| 0b. | Documentation  | We will provide both inline documentation of the code |
+| 0c.  | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. |
+| 0d.  | Docker  | We will provide Dockerfile(s) (if any) that can be used to test all the functionality delivered with this milestone. |
+| 1.  | Integrating Reclaim Protocol with Polkadot | We will deploy Reclaim contracts as a  pallet on Polkadot in RUST, ensuring compatibility with Polkadot's runtime environment. Currently, the Reclaim contracts are implemented in Solidity. The Solidity code can be found https://github.com/reclaimprotocol/solidity-sdk/blob/main/contracts/Reclaim.sol#L229C11-L229C22 |
+| 2.  | Optimising zkProofs  | We will optimize zkProof verification for Polkadot’s constraints, including time, gas and computational resource efficiency. |
+| 3.  | Integration and Testing  | We will develop and execute a suite of tests, including unit, integration, and stress tests, to validate the functionality and performance. Testing will be automated using a CI/CD pipeline to ensure that each build is verified, which will include code coverage and performance benchmarks.|
 
 2. Milestone - 2: Comprehensive documentation, blogposts, and community calls within the Polkadot ecosystem  - $5,000, FTE - 2
-Deliverable 
+
+Deliverables
 
 | Number | Deliverable | Specification |
 | --- | --- | --- |
 | 0e. | Article | We will publish an article/workshop that explains this integration  |
-| 1.  | Detailed Documentation and Guides  | We will publish detailed documentation, blogposts and participate in atleast 2 community calls to educate, seed ideas to the Polkadot developer community about how to use Reclaim Protocol for implementing Proof of Personhood and Bot protection primitives within their Dapps |
-
-Documentation will include a technical guide, API references, and example use cases to facilitate developer integration. |
+| 1.  | Detailed Documentation and Guides  | We will publish detailed documentation, blogposts and participate in atleast 2 community calls to educate, seed ideas to the Polkadot developer community about how to use Reclaim Protocol for implementing Proof of Personhood and Bot protection primitives within their Dapps. Documentation will include a technical guide, API references, and example use cases to facilitate developer integration. |
 
 ### **Phase - 2**
 
 After laying out the proof of personhood/bot protection infrastructure on top of Polkadot, in phase - 2, we will implement zk Login on Polkadot and publish comprehensive documentation and guides 
 
-**Total Estimated Duration 
-~**2 months 
+**Total Estimated Duration**
+~2 months 
 
 **Cost**
 
@@ -297,8 +296,7 @@ Deliverables
 | Number | Deliverable | Specification |
 | --- | --- | --- |
 | 0b. | Documentation | We will provide both inline documentation of the code |
-| 1.  | zklogin Design and Architecture 
-Documentation  | We will publish a comprehensive architecture document detailing the zkLogin system's components, including sequence diagrams for authentication flows, smart contract interactions, data and user flow, and the integration points with Polkadot's Substrate framework. |
+| 1.  | zklogin Design and Architecture Documentation  | We will publish a comprehensive architecture document detailing the zkLogin system's components, including sequence diagrams for authentication flows, smart contract interactions, data and user flow, and the integration points with Polkadot's Substrate framework. |
 | 2.  | API and SDK Requirements Specification | We will publish a detailed specification document that outlines the API endpoints, data models, and SDK functionality required to support zkLogin, including sequence diagrams and use-case scenarios for Dapp developers. |
 
 Milestone - 2: SDK Development - $50,000, FTE: 3

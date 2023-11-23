@@ -10,11 +10,11 @@
 
 Currently, users are accustomed to logging into centralized login systems such as Google, Facebook, and Twitter to access these services, but they have no way to use this on-chain. These conventional login methods are incompatible with on-chain verifications, thus creating a disconnect between user identities on different centralized platforms and restricting their utility on-chain across Dapps.
 
-Reclaim protocol will allow Dapps within the Polkadot ecosystem to provide zk login for its users. It will enable Dapp users to log into any website and generate a zkproof of their login that can be verified on chain. Reclaim Protocol makes https traffic verifiable using Zero-Knowledge Proofs, enabling users to generate verifiable credentials from any of their online user profiles. This unlocks unlimited possibilities as no APIs are required or no changes to be made to the websites to extract private user data, while guaranteeing data integrity. Web2 user data which was elusive to Web3 till now will be available to builders across the Polkadot ecosystem. This opens up opportunities for a new wave of applications that can support zklogin, proof of personhood  and bot protection. 
+Reclaim protocol will allow Dapps within the Polkadot ecosystem to provide zk login for its users. It will enable Dapp users to log into any website and generate a zkproof of their login that can be verified onchain. Reclaim Protocol makes https traffic verifiable using Zero-Knowledge Proofs, enabling users to generate verifiable credentials from any of their online user profiles. This unlocks unlimited possibilities as no APIs are required or no changes to be made to the websites to extract private user data, while guaranteeing data integrity. Web2 user data which was elusive to Web3 till now will be available to builders across the Polkadot ecosystem. This opens up opportunities for a new wave of applications that can support zklogin, proof of personhood, and bot protection. 
 
-Additionally, after speaking with the members of the Polkadot Foundation, we have been able to identify zklogin and [epassport](https://github.com/w3f/Grants-Program/blob/master/docs/RFPs/epassport-zk-validation.md) to be important use cases for Dapp builders and users that can be implemented uniquely through Reclaim Protocol. Through Reclaim, users can not only validate their login credentials but also provide verifiable proofs of various personal attributes and activities. For instance, they can prove the number of rides taken on Uber, expenditures on Amazon, or their scores on Chess.com, thereby establishing a robust proof of personhood which is instrumental in combating fraudulent actors and bots. Such proof of personhood can now be made available onchain via Reclaim protocol within the Polkadot ecosystem.
+Additionally, after speaking with the members of the Polkadot Foundation, we have been able to identify zklogin and [epassport](https://github.com/w3f/Grants-Program/blob/master/docs/RFPs/epassport-zk-validation.md) to be important use cases for Dapp builders and users that can be implemented uniquely through Reclaim Protocol. Through Reclaim, users can not only validate their login credentials but also provide verifiable proofs of various personal attributes and activities. For instance, they can prove the number of rides taken on Uber, expenditures on Amazon, or their scores on Chess.com, thereby establishing a robust proof of personhood which is instrumental in combating fraudulent actors and bots. Such proof of personhood can now be made available on-chain via Reclaim protocol within the Polkadot ecosystem.
 
-We are a small team (20+ members) with finite resources and want to collaborate with ecosystems that demonstrate a genuine commitment to enable use cases that are likely to scale to a billion users. Our team comprises primarily engineers who have previously worked at Meta, Microsoft, Google, and have contributed to various web3 open source projects. Given Polkadot's strong emphasis on streamlining user onboarding,  user experience, and implementing bot protection, coupled with our team's expertise and background, we believe that our team is one of the most suited to realise Polkadot's vision of building zk login and implementing Proof of Personhood for Dapps on top of Polkadot.
+We are a small team (20+ members) with finite resources and want to collaborate with ecosystems that demonstrate a genuine commitment to enable use cases that are likely to scale to a billion users. Our team comprises primarily engineers who have previously worked at Meta, Microsoft, Google and have contributed to various web3 open source projects. Given Polkadot's strong emphasis on streamlining user onboarding,  user experience, and implementing bot protection, coupled with our team's expertise and background, we believe that our team is one of the most suited to realise Polkadot's vision of building zk login and implementing Proof of Personhood for Dapps on top of Polkadot.
 
 
 
@@ -245,78 +245,68 @@ Explainer Blogposts - https://blog.reclaimprotocol.org/
 In the first phase of the project, we will integrate the Reclaim protocol with Polkadot to establish the proof of personhood and bot protection infrastructure, along with publishing comprehensive documentation to assist developers in enabling these use cases within their dApps.
 
 **Total Estimated Duration** 
-
 ~ 3 weeks
 
 **Cost**
 
-$50,000
+$45,000
 
 We will offer the Polkadot ecosystem ongoing development support for four months post-integration led by Integration Support Developer and provided by Reclaim Protocol.
 
 **Milestones, Deliverables and FTEs required**
 
-1.Milestone - 1 : Project Kickoff & Proposal Acceptance - $5,000, FTE - 1
-
-Deliverable
-
-Proposal acceptance announcement and a kickoff call with the Polkadot community, more specifically with builders for a technical deep dive of Reclaim and Q&A session
-
-2.Milestone - 2 : Reclaim Polkadot Integration - $40,000, FTE - 3
-
+1. Milestone - 1 : Reclaim Polkadot Integration - $40,000, FTE - 3 
 Deliverables
-- Successfully deploying of Reclaim Contracts
-- Effectively deploying Semaphore Contracts
-- Optimizing zkProof verification for Polkadot’s constraints (e.g. speed/gas constraints)
-- Integrating and Testing proof submission through SDKs, ensuring reliable and consistent interactions with Polkadot
-
-| Number | Deliverable | Specification |
-| --- | --- | --- |
-| 0a. | License | GPL  |
-| 0b. | Documentation  | We will provide both inline documentation of the code |
-| 0c.  | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. |
-| 0d.  | Docker  | We will provide Dockerfile(s) (if any) that can be used to test all the functionality delivered with this milestone. |
-
-3.Milestone - 3 : Comprehensive documentation, blogposts, and community calls within the Polkadot ecosystem - $5,000, FTE - 2
-
+    
+    
+    | Number | Deliverable | Specification |
+    | --- | --- | --- |
+    | 0a. | License | GPL  |
+    | 0b. | Documentation  | We will provide both inline documentation of the code |
+    | 0c.  | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. |
+    | 0d.  | Docker  | We will provide Dockerfile(s) (if any) that can be used to test all the functionality delivered with this milestone. |
+    | 1.  | Integrating Reclaim Protocol with Polkadot | We will deploy Reclaim contracts as a  pallet on Polkadot in RUST, ensuring compatibility with Polkadot's runtime environment.
+    
+    Currently, the Reclaim contracts are implemented in Solidity. The Solidity code can be found https://github.com/reclaimprotocol/solidity-sdk/blob/main/contracts/Reclaim.sol#L229C11-L229C22 |
+    | 2.  | Optimising zkProofs  | We will optimize zkProof verification for Polkadot’s constraints, including time, gas and computational resource efficiency. |
+    | 3.  | Integration and Testing  | We will develop and execute a suite of tests, including unit, integration, and stress tests, to validate the functionality and performance. 
+    
+    Testing will be automated using a CI/CD pipeline to ensure that each build is verified, which will include code coverage and performance benchmarks. |
+2. Milestone - 2: Comprehensive documentation, blogposts, and community calls within the Polkadot ecosystem  - $5,000, FTE - 2
 Deliverable 
-
-Detailed documentation, blogposts and atleast 2 community calls to educate, seed ideas to the Polkadot community about utilising Reclaim protocol for implementing Proof of Personhood and Bot production within their Dapps 
 
 | Number | Deliverable | Specification |
 | --- | --- | --- |
 | 0e. | Article | We will publish an article/workshop that explains this integration  |
+| 1.  | Detailed Documentation and Guides  | We will publish detailed documentation, blogposts and participate in atleast 2 community calls to educate, seed ideas to the Polkadot developer community about how to use Reclaim Protocol for implementing Proof of Personhood and Bot protection primitives within their Dapps 
+
+Documentation will include a technical guide, API references, and example use cases to facilitate developer integration. |
 
 ### **Phase - 2**
 
-After laying out the proof of personhood/bot protection infrastructure on top of Polkadot, in phase - 2, we will implement zk Login on Polkadot and work closely with Dapp developers to leverage, utilise it into their Dapps
+After laying out the proof of personhood/bot protection infrastructure on top of Polkadot, in phase - 2, we will implement zk Login on Polkadot and publish comprehensive documentation and guides 
 
-**Total Estimated Duration**
-
-~2 months 
+**Total Estimated Duration 
+~**2 months 
 
 **Cost**
 
-$220,000
+$180,000
 
 Milestone - 1: Design and Architecture, Amount - $40,000, FTE: 3
 
 Deliverables
 
-- Detailed design document outlining the architecture of the zk Login implementation using Reclaim.
-- Identify and document APIs and SDK requirements for Dapp builders.
-- Publish 1. and 2. on Github along with highlighting all assumptions and risks (if any)
-
 | Number | Deliverable | Specification |
 | --- | --- | --- |
 | 0b. | Documentation | We will provide both inline documentation of the code |
+| 1.  | zklogin Design and Architecture 
+Documentation  | We will publish a comprehensive architecture document detailing the zkLogin system's components, including sequence diagrams for authentication flows, smart contract interactions, data and user flow, and the integration points with Polkadot's Substrate framework. |
+| 2.  | API and SDK Requirements Specification | We will publish a detailed specification document that outlines the API endpoints, data models, and SDK functionality required to support zkLogin, including sequence diagrams and use-case scenarios for Dapp developers. |
 
-Milestone - 2: SDK Development - $50,000, FTE: 4
+Milestone - 2: SDK Development - $50,000, FTE: 3
 
 Deliverables
-- Building SDKs to enable Dapp builders to implement zk Login using Reclaim
-- Publishing comprehensive documentation and tutorials for SDK usage
-- Publishing testing frameworks for SDKs
 
 | Number | Deliverable | Specification |
 | --- | --- | --- |
@@ -324,26 +314,27 @@ Deliverables
 | 0b. | Documentation | We will provide both inline documentation of the code |
 | 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. |
 | 0d. | Docker | We will provide Dockerfile(s) (if any) that can be used to test all the functionality delivered with this milestone. |
+| 1.  | SDK Development for zkLogin | We will build a robust SDK to facilitate the integration of zkLogin into Dapps, complete with modular components and clear abstraction layers. |
+| 2.  | Detailed Documentation and Tutorials for SDK usage  | We will create in-depth technical documentation, API references, and step-by-step tutorials for the SDKs, ensuring they are accessible to developers with varying levels of expertise. |
+| 3.  | Publishing SDK Testing Frameworks  | We will design and implement a suite of automated testing frameworks for the SDKs, including unit, integration, and end-to-end tests, with continuous integration setup to validate all code commits. |
 
-Milestone - 3: Testing and Security Audits - $50,000, FTE: 4
+Milestone - 3: Testing and Security Audits - $50,000, FTE: 3
 
 Deliverables
-
-- Conducting a thorough security audit of the zk Login implementation to identify and fix potential vulnerabilities
-- Integration testing with Polkadot
-- Performance testing
 
 | Number | Deliverable | Specification |
 | --- | --- | --- |
 | 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. |
+| 1.  | Security audit of zk Login implementation  | We will contract a reputable third-party security firm to conduct an exhaustive security audit of the zkLogin implementation, including smart contracts and integration layers, with a detailed report of findings and remediation strategies.
+
+For instance, https://www.zksecurity.xyz/blog/posts/reclaim/ of Reclaim protocol. We are working closely with them to get other modules audited.  |
+| 2.  | Integration Testing with Polkadot  | We will execute a series of integration tests to ensure that the zkLogin system works seamlessly within the Polkadot ecosystem, including cross-chain interactions and transaction handling. |
+| 3.  | Performance Testing and Optimization | We will perform comprehensive performance testing to benchmark and optimize the zkLogin system, ensuring it meets the scalability and efficiency standards required for Polkadot's environment. |
 
 Milestone - 4: Dapp Builder Toolkit - $40,000, FTE: 3
 
 Deliverables
 
-- Creating toolkit for Dapp builders including templates, UI/UX components, testing tools, and other utilities to aid developers in building, testing, and deployment purposes. It will also include examples, best practices, troubleshooting guides, and community-driven resources to help Dapp developers at different stages of development lifecycle
-- Hosting online workshop/webinars for Dapp builders to educate them about zklogin, toolkit, SDKs  and Reclaim protocol 
-- Creating community engagement and support channels on Discord/Telegram
  
 
 | Number | Deliverable | Specification |
@@ -352,80 +343,29 @@ Deliverables
 | 0b. | Documentation | We will provide both inline documentation of the code |
 | 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. |
 | 0d. | Docker | We will provide Dockerfile(s) (if any) that can be used to test all the functionality delivered with this milestone. |
-
-Milestone - 5: Pilot Dapp Integration - $40,000, FTE: 3
-
-Deliverables
-
-- Working with select Dapp builders to integrate zk Login in atleast 3 Dapps within the Polkadot ecosystem 
-- Collecting feedback and making necessary adjustments to the SDKs and toolkits
-- Showcasing successful implementations and case studies for Dapps that have implemented zkLogin
-
-| Number | Deliverable | Specification |
-| --- | --- | --- |
-| 0b. | Documentation | We will provide both inline documentation of the code |
-| 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. |
-
-### Phase - 3
-
-In phase - 3, we will involve the Polkadot community, more specifically builders to implement proof of personhood, bot protection primitives and optimise end to end user experience based on the active feedback collected through various channels 
-
-**Total Estimated Duration** 
-
-~ 2.5 months 
-
-**Cost**
-
-$25,000
-
-**Milestones and Deliverables**
-
-1. Milestone - 1: Atleast two Dapps on production that implement Proof of Personhood and bot production primitives - $15,000, FTE - 2
-
-Deliverable - Atleast two new/existing Dapps within the Polkadot ecosystem that implement Proof of Personhood/bot production within their Dapps using Reclaim protocol
-
-| Number | Deliverable | Specification |
-| --- | --- | --- |
-| 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. |
-| 0e. | Article | We will publish an article/workshop that explains this implementation |
-
-2. Milestone - 2: Optimising User Experience, Documentation and marketing - $10,000 FTE - 2, 
-    
-Deliverables 
-    
-- Conducting usability testing with a diverse group of users to identify potential UX/UI challenges or barriers when interacting with the Proof of Personhood/bot protection features insid Dapps that have implemented these primitives
-- Implementing necessary UX/UI improvements based on the feedback received from usability testing to ensure a seamless and intuitive user experience.
-- Documenting the learning and best practices through 1. and 2. 
-- Showcasing successful implementations and case studies for Dapps that have implemented Proof of Personhood and bot protection primitives across community calls and community forum posts 
-
-| Number | Deliverable | Specification |
-| --- | --- | --- |
-| 0b. | Documentation | We will provide both inline documentation of the code |
-| 0e. | Article | We will publish an article/workshop that explains this integration |
+| 1.  | Creating Dapp Builder Toolkit  | We will create and publish a toolkit for Dapp builders including templates, UI/UX components, testing tools, and other utilities to aid developers in building, testing, and deployment purposes. It will also include examples, best practices, troubleshooting guides, and community-driven resources to help Dapp developers at different stages of the development lifecycle |
+| 2.  | Developer Advocacy, Educational Content, and Documentation  | We will host online workshops/webinars for Dapp builders to educate them about zklogin, toolkit, SDKs,  and Reclaim protocol  |
+| 3.  | Community engagement and support channels  | We will create community engagement and support channels on Discord/Telegram for developer support including regular AMAs, feedback sessions, and contribution guides. |
 
 ### Summary
 
-1. Milestone - 1 : $5,000
-2. Milestone - 2 : $40,000
-3. Milestone - 3 : $5,000
-4. Milestone - 4: $40,000
+1. Milestone - 1: $40,000
+2. Milestone - 2: $5,000
+3. Milestone - 3: $40,000
+4. Milestone - 4: $50,000
 5. Milestone - 5: $50,000
-6. Milestone - 6: $50,000
-7. Milestone - 7: $40,000
-8. Milestone - 8: $40,000
-9. Milestone - 9 - $15,000
-10. Milestone - 10 - $10,000
+6. Milestone - 6: $40,000
 
-Total : $295,000 in DOTs
+Total: $225,000 in DOTs
 
-We request the DOT amount to be calculated based on the [7 day average](https://polkadot.subscan.io/tools/charts?type=price), starting from the day of submission.
+We request the DOT amount to be calculated based on the [7-day average](https://polkadot.subscan.io/tools/charts?type=price), starting from the day of submission.
 
 
 ## Future Plans
 
-Reclaim Protocol is built by the team at CreatorOS Inc. We are a 20+ member engineering and web3 product development & research team including ZKP researchers and with previous affiliations to Stanford, Microsoft, Meta and Google . Creatoros is a YC’21 company. Our long term vision is to unlock a new design space empowering builders to build novel solutions that leverage the identity and credentials of users which they have accrued over time all over the internet. We are also keen to engage closely with the ecosystems/partners who share our vision and can help us realise it. 
+Reclaim Protocol is built by the team at CreatorOS Inc. We are a 20+ member engineering and web3 product development & research team including ZKP researchers and with previous affiliations to Stanford, Microsoft, Meta and Google. Creatoros is a YC’21 company. Our long-term vision is to unlock a new design space empowering builders to build novel solutions that leverage the identity and credentials of users which they have accrued over time all over the internet. We are also keen to engage closely with the ecosystems/partners who share our vision and can help us realise it. 
 
-To accomplish this, our immediate goal is to provide a seamless Reclaim integration experience to all developers and users using Reclaim by streamlining its various touchpoints such as developer documentation, Reclaim SDKs, developer journey, user journey  etc. 
+To accomplish this, our immediate goal is to provide a seamless Reclaim integration experience to all developers and users using Reclaim by streamlining its various touchpoints such as developer documentation, Reclaim SDKs, developer journey, user journey, etc. 
 
 
 

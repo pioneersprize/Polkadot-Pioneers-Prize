@@ -12,8 +12,7 @@ Currently, users are accustomed to logging into centralized login systems such a
 
 Reclaim protocol will allow Dapps within the Polkadot ecosystem to provide zk login for its users. It will enable Dapp users to log into any website and generate a zkproof of their login that can be verified onchain. Reclaim Protocol makes https traffic verifiable using Zero-Knowledge Proofs, enabling users to generate verifiable credentials from any of their online user profiles. This unlocks unlimited possibilities as no APIs are required or no changes to be made to the websites to extract private user data, while guaranteeing data integrity. Web2 user data which was elusive to Web3 till now will be available to builders across the Polkadot ecosystem. Reclaim empowers developers to make Web2 composable. This opens up opportunities for a new wave of applications that can support zklogin, proof of personhood, and bot protection. 
 
-Additionally, after speaking with the members of the Polkadot Foundation, we have been able to identify zklogin and [epassport](https://github.com/w3f/Grants-Program/blob/master/docs/RFPs/epassport-zk-validation.md) to be important use cases for Dapp builders and users that can be implemented uniquely through Reclaim Protocol. Through Reclaim, users can not only validate their login credentials but also provide verifiable proofs of various personal attributes and activities. **For instance, they can prove the number of rides taken on Uber, expenditures on Amazon, or their scores on Chess.com, thereby establishing a robust proof of personhood which is instrumental in combating fraudulent actors and bots. Such proof of personhood can now be made available on-chain via Reclaim protocol within the Polkadot ecosystem.
-**
+Additionally, after speaking with the members of the Polkadot Foundation, we have been able to identify zklogin and [epassport](https://github.com/w3f/Grants-Program/blob/master/docs/RFPs/epassport-zk-validation.md) to be important use cases for Dapp builders and users that can be implemented uniquely through Reclaim Protocol. Through Reclaim, users can not only validate their login credentials but also provide verifiable proofs of various personal attributes and activities. **For instance, they can prove the number of rides taken on Uber, expenditures on Amazon, or their scores on Chess.com, thereby establishing a robust proof of personhood which is instrumental in combating fraudulent actors and bots. Such proof of personhood can now be made available on-chain via Reclaim protocol within the Polkadot ecosystem.**
 
 We are a small team (20+ members) with finite resources and want to collaborate with ecosystems that demonstrate a genuine commitment to enable use cases that are likely to scale to a billion users. Our team comprises primarily engineers who have previously worked at Meta, Microsoft, Google and have contributed to various web3 open source projects. Given Polkadot's strong emphasis on streamlining user onboarding,  user experience, and implementing bot protection, coupled with our team's expertise and background, we believe that our team is one of the most suited to realise Polkadot's vision of building zk login and implementing Proof of Personhood for Dapps on top of Polkadot.
 
@@ -256,8 +255,7 @@ We will offer the Polkadot ecosystem ongoing development support for four months
 
 **Milestones, Deliverables and FTEs required**
 
-1. Milestone - 1 Reclaim Polkadot Integration and publishing and publishing 
-comprehensive documentation, blogposts, and community calls within the Polkadot ecosystem - $45,000, FTE - 3
+1. Milestone - 1: Reclaim Polkadot Integration and publishing comprehensive documentation, blogposts, and participating in community calls within the Polkadot ecosystem - $45,000, FTE - 3
 
 Deliverables
     
@@ -277,7 +275,7 @@ Deliverables
 
 After laying out the proof of personhood/bot protection infrastructure on top of Polkadot, in phase - 2, we will implement zk Login on Polkadot and publish comprehensive documentation and guides. 
 
-The scope of this application is limited to the successful completion of phase 1. We will submit a separate application for phase 2. Detailed and milestones specific to phase - 2 can be found [here](https://www.notion.so/Polkadot-zk-Login-Phase-2-Details-020b746e9ae547fb849407a49edc793d?pvs=21)
+The scope of this application is limited to the successful completion of Phase-1. We will submit a separate application for Phase-2. Details and milestones specific to Phase - 2 can be found [here](https://www.notion.so/Polkadot-zk-Login-Phase-2-Details-020b746e9ae547fb849407a49edc793d?pvs=21)
 
 ### Summary
 

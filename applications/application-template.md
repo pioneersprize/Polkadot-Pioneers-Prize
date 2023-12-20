@@ -1,4 +1,5 @@
-# Name of your Project
+# PP-PP 
+Polkadot Privacy-preserving Payments
 
 > Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. 
 >

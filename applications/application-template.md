@@ -192,9 +192,7 @@ This section should break the development roadmap down into milestones and deliv
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an article that explains our privacy pool construct in the Polkadot ecosystem. It discusses the roles, the functioning and provide a guide on how to conduct a privacy-preserving payment. Content, language and medium will reflect our target audience described above. |
-| 1. | Research Phase | * Familiarize with Substrate, ink! and respective parachain, on which we implement our solution 
-* Understand process of conducting a transaction via parachain 
-* Investigate SDKs |
+| 1. | Research Phase | Familiarize with Substrate, ink! and respective parachain, on which we implement our solution, Understand process of conducting a transaction via parachain, Investigate SDKs |
 | 2. | Design Phase | Develop front-end designs and general construct of the privacy pool. This includes, in particular, the exact specification of the smart contract as well as a proper software architecture and API connections. |
 | 3. | Substrate module: Privacy pool | Develop front-end designs and build the privacy pool backend. This includes, in particular, the specification of the smart contracts as well as a proper software architecture and API connections. Note that for the privacy pool ZK methods available via ink! and substrate will be used. |
 | 4. | Substrate chain | Our privacy pool will be deployed on a specific parachain to enable privacy-preserving and compliant transactions. Our research on which parachain to build is still ongoing. |

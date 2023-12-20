@@ -172,7 +172,9 @@ This section should break the development roadmap down into milestones and deliv
 
 - **Total Estimated Duration:** 4 months
 - **Full-Time Equivalent (FTE):**  4
-- **Total Costs:** $202,874.19 USD 
+- **Total Costs:** $202,874.19 USD
+
+![Budget Break down](budget.png)
 
 ### Milestone 1 Example — Basic functionality
 

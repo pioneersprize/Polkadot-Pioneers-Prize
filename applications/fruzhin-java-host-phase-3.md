@@ -169,8 +169,8 @@ Hamza](https://www.linkedin.com/in/muradhamza/)
 
 ## Development Status
 
-- https://github.com/limechain/fruzhin - The current implementation
-for a fully functional Light client
+- https://github.com/limechain/fruzhin - The current Java implementation
+of a light client and full node
 - https://github.com/LimeChain/wasmer-java
 - [Research
 feasibility and design for Java Host](https://github.com/w3f/Grants-Program/pull/1353)
@@ -235,7 +235,6 @@ Research Feasibility of a Java Host](https://github.com/w3f/Grant-Milestone-Deli
 - **FTE:** 4
 - **Costs:** 89,600 USD
 
-| 9. | Follow and implement any upcoming BEEFY components like APK proof base Light clients | The specification is currently in TODO for this section but will likely be done by the time we reach this milestone. |
 | --- | --- | --- |
 | Number | Deliverable | Specification |
 | 0a. | License | Apache 2.0 |

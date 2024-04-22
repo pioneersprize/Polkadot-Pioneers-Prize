@@ -235,8 +235,8 @@ Research Feasibility of a Java Host](https://github.com/w3f/Grant-Milestone-Deli
 - **FTE:** 4
 - **Costs:** 89,600 USD
 
-| --- | --- | --- |
 | Number | Deliverable | Specification |
+| --- | --- | --- |
 | 0a. | License | Apache 2.0 |
 | 0b. | Documentation | In addition to inline documentation we will have a dedicated README file for the BEEFY protocol. |
 | 0c. | Testing and Testing Guide | Multitude of unit tests will be written as opposed to integration tests which will be decided on a case by case basis. |

@@ -181,9 +181,25 @@ Research Feasibility of a Java Host](https://github.com/w3f/Grant-Milestone-Deli
 
 ### Overview
 
-- **Total Estimated Duration:** 8 months
+- **Total Estimated Duration:** 9 months
 - **Full-Time Equivalent (FTE):** 4
-- **Total Costs:** 464000 USD
+- **Total Costs:** 502400 USD
+
+### Milestone 0 - Block execution improvements
+
+- **Estimated duration:** 2 weeks
+- **FTE:** 4
+- **Costs:** 25600 USD
+
+| Number | Deliverable | Specification |
+| --- | --- | --- |
+| 0a. | License | Apache 2.0 |
+| 0b. | Documentation | Mostly inline documentation will be added. |
+| 0c. | Testing and Testing Guide | A milestone further down the line handles the heavy integration runtime tests. Unit tests will be written. |
+| 1. | Research | All possible solutions will require a certain amount of refactoring so making sure we taking the correct approach is mandatory. |
+| 2. | Abolish all Singletons related to the HostAPI | This will help us decouple the runtime calls. |
+| 3. | Decouple Spring and Polkadot Runtime | Right now we need a working Spring instance (with all of its components) to make ANY runtime call. These 2 shouldn’t be coupled so hard. |
+| 4. | Storage HostAPI functions remodelling | As storage access is one of the most important and slowest features, it would greatly help out node to have them remodelled so that trie root calculation can happen in parallel.  |
 
 ### Milestone 1 - BABE
 
@@ -250,9 +266,9 @@ Research Feasibility of a Java Host](https://github.com/w3f/Grant-Milestone-Deli
 
 ### Milestone 4 - Upgrading the Full Sync
 
-- **Estimated duration:** 6 weeks
+- **Estimated duration:** 7 weeks
 - **FTE:** 4
-- **Costs:** 76,800 USD
+- **Costs:** 89,600 USD
 
 | Number | Deliverable | Specification |
 | --- | --- | --- |
@@ -265,6 +281,8 @@ Research Feasibility of a Java Host](https://github.com/w3f/Grant-Milestone-Deli
 | 4. | Complete the implementation of Import and Validate Block | Finish the algorithm by adding the Verify Authorship Right and Verify Block Justification algorithms to it and extract it to a separate function. Also announce the block to the network. |
 | 5. | Improve peer finding | Update Nabu dependency to latest version and ensure we can keep a two digit number of peers connected and synching at all times. Revisit log frequency/level after to avoid log clogging. |
 | 6. | Ensure network compatibility | Host is able to sync up to the head of the chain. Requires testing with all networks (polkadot, kusama, westend). |
+| 7.  | Correctly load a block state  | We are currently saving a valid block state but lack the of getting it and using it which would save a lot of syncing time. |
+| 8.  | Improve syncing strategy | So far the user is required to manually select whether he wants the node to sync in full or warp mode. Given that node reputation is something we want to keep high it would be better to think of a strategy where most of the synching happens with warp sync. |
 
 ### Milestone 5 - Upgrading wasmer-java
 

@@ -183,7 +183,7 @@ Research Feasibility of a Java Host](https://github.com/w3f/Grant-Milestone-Deli
 
 - **Total Estimated Duration:** 9 months
 - **Full-Time Equivalent (FTE):** 4
-- **Total Costs:** 502400 USD
+- **Total Costs:** 512000 USD
 
 ### Milestone 0 - Block execution improvements
 
@@ -340,9 +340,9 @@ refactoring ideas. |
 
 ### Milestone 9 - Developer Relations
 
-- **Estimated duration:** 3 weeks
+- **Estimated duration:** 6 weeks
 - **FTE:** 1
-- **Costs:** 9,600 USD
+- **Costs:** 19,200 USD
 
 | Number | Deliverable | Specification |
 | --- | --- | --- |

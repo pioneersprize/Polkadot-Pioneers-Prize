@@ -344,11 +344,13 @@ refactoring ideas. |
 - **FTE:** 1
 - **Costs:** 19,200 USD
 
-| Number | Deliverable | Specification |
-| --- | --- | --- |
-| 1. | Workshop | Host a workshop on how to use the authoring node. |
-| 2. | Update educational videos | Update the videos about Fruzhin with he newly added functionalities. |
-| 3. | Gather feedback | Use the community channel to gather feedback. |
+| Number | Deliverable               | Specification                                                                              |
+|--------|---------------------------|--------------------------------------------------------------------------------------------|
+| 1.     | Workshop                  | Host a workshop on how to use the authoring node.                                          |
+| 2.     | Update educational videos | Update the videos about Fruzhin with he newly added functionalities.                       |
+| 3.     | Gather feedback           | Use the community channel to gather feedback.                                              |
+| 4.     | User issues support       | Dedicate time to address issues raised by users.                                           |
+| 5.     | Upgrade Host              | Upgrade the Host by improving on the parts which have received the most negative feedback. |
 
 ### Milestone 10 - Research relaying node scope
 

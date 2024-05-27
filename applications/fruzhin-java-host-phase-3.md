@@ -318,12 +318,12 @@ Research Feasibility of a Java Host](https://github.com/w3f/Grant-Milestone-Deli
 - **FTE:** 4
 - **Costs:** 25,600 USD
 
-| Number | Deliverable | Specification                                                                                                                                                                                                                      |
-| --- | --- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Number | Deliverable                  | Specification                                                                                                                                                                                                                      |
+| --- |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1. | Consensus integration tests  | Consensus is a very important part of the network and to make sure our authoring node is acting exactly the way it is supposed to. Therefore our team will add an abundance of integration tests in order to verify the behaviour. |
-| 2. | Runtime integration tests | Add multiple integration tests which specifically focus on the Runtime class and Runtime exported functions.                                                                                                                       |
-| 3. | Integrate in cloud | Deploy Fruzhin to cloud.                                                                                                                                                                                                           |
-| 4. | Implement Todo.md changes | We have a file in Fruzhin called Todo.md in which we have test and refactoring ideas.                                                                                                                                              |
+| 2. | Runtime integration tests    | Add multiple integration tests which specifically focus on the Runtime class and Runtime exported functions.                                                                                                                       |
+| 3. | Integrate in cloud           | Deploy Fruzhin to cloud.                                                                                                                                                                                                           |
+| 4. | Implement Todo.md changes    | We have a file in Fruzhin called Todo.md in which we have test and refactoring ideas.                                                                                                                                              |
 
 ### Milestone 8 - Documentation and article
 
@@ -332,10 +332,10 @@ Research Feasibility of a Java Host](https://github.com/w3f/Grant-Milestone-Deli
 - **Costs:** 9,600 USD
 
 | Number | Deliverable | Specification |
-| --- | --- | --- |
-| 0e | Article | Publish an article about the new functionalities. |
-| 1. | Readme improvements | Improve the documentation and add a comprehensive guide of how to use the authoring node. |
-| 3. | Minor docs improvements | We will also revisit the documentation we’ve written so far and refactor it wherever necessary. |
+|--------| --- | --- |
+| 0e     | Article | Publish an article about the new functionalities. |
+| 1.     | Readme improvements | Improve the documentation and add a comprehensive guide of how to use the authoring node. |
+| 2.     | Minor docs improvements | We will also revisit the documentation we’ve written so far and refactor it wherever necessary. |
 
 ### Milestone 9 - Developer Relations
 #### **Part of the milestone items are transferred from the previous proposal and cost 0**

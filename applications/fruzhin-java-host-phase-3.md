@@ -183,13 +183,13 @@ Research Feasibility of a Java Host](https://github.com/w3f/Grant-Milestone-Deli
 
 - **Total Estimated Duration:** 9 months
 - **Full-Time Equivalent (FTE):** 4
-- **Total Costs:** 512000 USD
+- **Total Costs:** 502,400 USD
 
 ### Milestone 0 - Block execution improvements
 
 - **Estimated duration:** 2 weeks
 - **FTE:** 4
-- **Costs:** 25600 USD
+- **Costs:** 25,600 USD
 
 | Number | Deliverable | Specification |
 | --- | --- | --- |
@@ -318,13 +318,12 @@ Research Feasibility of a Java Host](https://github.com/w3f/Grant-Milestone-Deli
 - **FTE:** 4
 - **Costs:** 25,600 USD
 
-| Number | Deliverable | Specification |
-| --- | --- | --- |
+| Number | Deliverable | Specification                                                                                                                                                                                                                      |
+| --- | --- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1. | Consensus integration tests  | Consensus is a very important part of the network and to make sure our authoring node is acting exactly the way it is supposed to. Therefore our team will add an abundance of integration tests in order to verify the behaviour. |
-| 2. | Runtime integration tests | Add multiple integration tests which specifically focus on the Runtime class and Runtime exported functions. |
-| 3. | Integrate in cloud | Deploy Fruzhin to cloud. |
-| 4. | Implement Todo.md changes | We have a file in Fruzhin called Todo.md in which we have test and
-refactoring ideas. |
+| 2. | Runtime integration tests | Add multiple integration tests which specifically focus on the Runtime class and Runtime exported functions.                                                                                                                       |
+| 3. | Integrate in cloud | Deploy Fruzhin to cloud.                                                                                                                                                                                                           |
+| 4. | Implement Todo.md changes | We have a file in Fruzhin called Todo.md in which we have test and refactoring ideas.                                                                                                                                              |
 
 ### Milestone 8 - Documentation and article
 
@@ -339,10 +338,11 @@ refactoring ideas. |
 | 3. | Minor docs improvements | We will also revisit the documentation we’ve written so far and refactor it wherever necessary. |
 
 ### Milestone 9 - Developer Relations
+#### **Part of the milestone items are transferred from the previous proposal and cost 0**
 
 - **Estimated duration:** 6 weeks
 - **FTE:** 1
-- **Costs:** 19,200 USD
+- **Costs:** 9,600 USD
 
 | Number | Deliverable               | Specification                                                                              |
 |--------|---------------------------|--------------------------------------------------------------------------------------------|

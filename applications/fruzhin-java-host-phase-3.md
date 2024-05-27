@@ -270,19 +270,19 @@ Research Feasibility of a Java Host](https://github.com/w3f/Grant-Milestone-Deli
 - **FTE:** 4
 - **Costs:** 89,600 USD
 
-| Number | Deliverable | Specification                                                                                                                                                                            |
-| --- | --- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0a. | License | Apache 2.0                                                                                                                                                                               |
-| 0b. | Documentation | Inline documentation.                                                                                                                                                                    |
-| 0c. | Testing and Testing Guide | Multitude of unit tests will be written as opposed to integration tests which will be decided on a case by case basis.                                                                   |
-| 1. | Implement block tree pruning | It’s necessary to have access to the pruned block tree for the correct execution of part of the following algorithms.                                                                    |
-| 2. | Retrieve authorities from Runtime | Make the necessary Runtime calls to get the authority list.                                                                                                                              |
-| 3. | Add consensus message to header | In the case of a change to the authority list during a state transition we want to add an appropriate consensus message to the block header.                                             |
+| Number | Deliverable | Specification                                                                                                                                                                             |
+| --- | --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0a. | License | Apache 2.0                                                                                                                                                                                |
+| 0b. | Documentation | Inline documentation.                                                                                                                                                                     |
+| 0c. | Testing and Testing Guide | Multitude of unit tests will be written as opposed to integration tests which will be decided on a case by case basis.                                                                    |
+| 1. | Implement block tree pruning | It’s necessary to have access to the pruned block tree for the correct execution of part of the following algorithms.                                                                     |
+| 2. | Retrieve authorities from Runtime | Make the necessary Runtime calls to get the authority list.                                                                                                                               |
+| 3. | Add consensus message to header | In the case of a change to the authority list during a state transition we want to add an appropriate consensus message to the block header.                                              |
 | 4. | Complete the implementation of Import and Validate Block | Finish the algorithm by adding the Verify Authorship Right and Verify Block Justification algorithms to it and extract it to a separate function. Also announce the block to the network. |
 | 5. | Improve peer finding | Update Nabu dependency to latest version and ensure we can keep a two digit number of peers connected and synching at all times. Revisit log frequency/level after to avoid log clogging. |
-| 6. | Ensure network compatibility | Host is able to sync up to the head of the chain. Requires testing with all networks (polkadot, kusama, westend).                                                                        |
-| 7.  | Correctly load a block state  | We are currently saving a valid block state but lack the of getting it and using it which would save a lot of syncing time.                                                              |
-| 8.  | Improve syncing strategy | Test and adjust the synching strategy so that the reputation of the node stays as high as possible. A bit fo research on node reputation is mandatory for this task.                     |
+| 6. | Ensure network compatibility | Host is able to sync up to the head of the chain. Requires testing with all networks (polkadot, kusama, westend).                                                                         |
+| 7.  | Correctly load a block state  | We are currently saving a valid block state but lack the of getting it and using it which would save a lot of syncing time.                                                               |
+| 8.  | Improve syncing strategy | Test and adjust the synching strategy so that the reputation of the node stays as high as possible. A bit of research on node reputation is mandatory for this task.                      |
 
 ### Milestone 5 - Upgrading wasmer-java
 

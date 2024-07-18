@@ -181,9 +181,9 @@ Research Feasibility of a Java Host](https://github.com/w3f/Grant-Milestone-Deli
 
 ### Overview
 
-- **Total Estimated Duration:** 9 months
+- **Total Estimated Duration:** 10 months
 - **Full-Time Equivalent (FTE):** 4
-- **Total Costs:** 502,400 USD
+- **Total Costs:** 566,400 USD
 
 ### Milestone 0 - Block execution improvements
 
@@ -362,6 +362,19 @@ Research Feasibility of a Java Host](https://github.com/w3f/Grant-Milestone-Deli
 | --- | --- | --- |
 | 1. | Relaying node | Create the scope for the next phase - relaying node. |
 | 2. | User feedback | Analyse the user feedback and the changes in the ecosystem and scope the important changes for the next phase. |
+
+### Milestone 11 - **Light Client Web Scope**
+
+- **Estimated duration:** 5 weeks
+- **FTE:** 4
+- **Costs:** 64,000 USD
+
+| Number | Deliverable | Specification |
+| --- | --- | --- |
+| 1. | WebAssembly integration | 1. Segregate Light Client part to be referenced/forked <br /> 2. Set up separate repository <br /> 3. Add a dependency to TeaVM and compile to WASM |
+| 2. | P2P communication | 1. Set up communication with RPC calls as a standalone syste <br /> 2. Set up Kademlia DHT running in the web <br /> 3. Benchmark both variants and write a suitable structure of usage |
+| 3 | Diagnostics and issues support | 1. Announce usage in communication channel to start collecting user feedback <br /> 2. Benchmark against a locally running Fruzhin node <br /> 3. Address issues raised by users |
+| 4 | Finalization | 1. Add comprehensive documentation <br /> 2. Add integration tests covering the most problematic cases <br /> 3. Research for next phase/improvements |
 
 ## Future Plans
 

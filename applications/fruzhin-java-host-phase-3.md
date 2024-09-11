@@ -3,7 +3,7 @@
 # Fruzhin, Java Authoring node
 
 - **Team Name:** [LimeChain](https://github.com/LimeChain)
-- **Payment Address:** 15reUHgnkE9QeH9zUoduCVYAbksTmQXvpMd6L95rBhTNFuGwre
+- **Payment Address:** 15reUHgnkE9QeH9zUoduCVYAbksTmQXvpMd6L95rBhTNFuGw
 
 ## Project Overview
 

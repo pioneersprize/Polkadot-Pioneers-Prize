@@ -1,5 +1,9 @@
 # Polkadot Pioneers Prize
 
+> [!NOTE]
+> The Polkadot Pioneers Prize no longer accepts any new applications. We are in the process of closing the bounty. 
+
+
 <p align="center">
   <img src="static/pioneersprize.png" style="width:1300px" />
 </p>
